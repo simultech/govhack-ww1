@@ -1,1 +1,1 @@
-Lins page
+<div class="test">test on lins page</div>
