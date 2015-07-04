@@ -69,10 +69,27 @@
     	body, html {
 	    	height:100%;
     	}
+    	.timeline_header div div {
+	    	background:orange;
+	    	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	    	text-align:center;
+	    	font-size:400%;
+	    	border-top:1px solid #000;
+	    	height:200px;
+	    	padding-top:100px;
+	    	text-shadow: 0px 0px 4px black;
+    	}
+    	.timeline_header div .away_head {
+    		background:#[UIColor colorWithHue:0.087 saturation:0.472 brightness:0.557 alpha:1];
+	    	background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Australian_9th_and_10th_battalions_Egypt_December_1914_AWM_C02588.jpeg');
+    	}
+    	.timeline_header div .home_head {
+	    	background-image:url('http://anzaccentenary.vic.gov.au/wp-content/uploads/2013/10/Banner-Melbourne%E2%80%99s-Swanston-street-in-1914-%E2%80%93-calm-and-confident.jpg');
+    	}
     </style>
 </head>
 <body>
-	<div id="container" style="min-height:100%;">
+	<div id="container" style="height:100%;">
 		<div id="header">
 		<div id='bgvidwrapper'>
 		<video autoplay loop poster="polina.jpg" id="bgvid">
@@ -83,10 +100,22 @@
 			<h1>At war and at home</h1>
 			<h2>The great war - it tore us apart but it brought us together</h2>
 		</div>
+		<div id="titlefix">
+
+		</div>
 		<div id="intro">
-			Intro
+			<?php echo $this->element('intro'); ?>
 		</div>
 		<div id="main">
+			<div class="tnline"></div>
+			<div class="tn"><span>1914 - Start of war</span></div>
+			<div class="container timeline_header">
+				<div class="row">
+					<div class="col-md-6 away_head">At War</div>
+					<div class="col-md-6 home_head">At Home</div>
+				</div>
+			</div>
+			<div class="tn"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 large_event">Big event</div>
@@ -96,6 +125,7 @@
 					<div class="col-md-6 away_event">Away</div>
 				</div>
 			</div>
+			<div class="tn"></div>
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
@@ -112,7 +142,7 @@
 	<script type="text/javascript">
 	$(window).on("scroll", function() {
 	    var scrollPos = $(window).scrollTop();
-	    if (scrollPos <= 0) {
+	    if (scrollPos <= $(window).height()) {
 	        $("#timeline").fadeOut();
 	    } else {
 	        $("#timeline").fadeIn();
