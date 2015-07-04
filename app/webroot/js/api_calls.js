@@ -1,4 +1,10 @@
 
+$('document').ready(function() {
+    console.log("STARTING");
+    
+});
+
+
 /**
  * Nothing fancy, general function for querying an API.
  * 

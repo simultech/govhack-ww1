@@ -17,6 +17,7 @@
 
 		echo $this->Html->script('jquery-1.11.3.min');		
 		echo $this->Html->script('bootstrap.min');
+                echo $this->Html->script('api_calls');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
