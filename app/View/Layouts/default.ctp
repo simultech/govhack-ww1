@@ -36,12 +36,21 @@
 	    	height:100px;
 	    	background:red;
     	}
+    	#header {
+	    	text-align:center;
+	    	padding:100px;
+    	}
+    	#header h1 {
+	    	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	    	font-size:300%;
+    	}
     </style>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
-			<h1>ww1</h1>
+			<h1>At war and at home</h1>
+			<h2>The great war - it tore us apart but it brought us together</h2>
 		</div>
 		<div id="intro">
 			Intro

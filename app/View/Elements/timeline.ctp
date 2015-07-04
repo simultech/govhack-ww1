@@ -28,6 +28,15 @@
 	div#bottomtimeline .node:hover {
 		background:#ddf;
 	}
+	div#bottomtimeline .node span {
+		display:block;
+		width:210px;
+		text-align:center;
+		margin-left:-100px;
+		margin-top:20px;
+		font-size:90%;
+		font-family:"Helvetica";
+	}
 	div#bottomtimeline .start {
 		margin-left:10%;
 	}
@@ -35,13 +44,22 @@
 		margin-right:10%;
 		right:0;
 	}
-	
 </style>
 
 <div id='bottomtimeline'>
 	<div class='line'></div>
 	<div class='start node'></div>
-	<div class='node' style="margin-left:20%;"><span>Start of war</span></div>
-	<div class='node' style="margin-left:30%;"><span>End of war</span></div>
+	<div class='nodes'>
+		<div class='node' data-pos="20" style="margin-left:20%;"><span>Start of war</span></div>
+		<div class='node' data-pos="30" style="margin-left:30%;"><span>End of war</span></div>
+	</div>
 	<div class='end node'></div>
 </div>
+
+<script type="text/javascript">
+	$('.node').click(function() {
+		var position = $(this).data('pos')+300;
+		console.log(position);
+		$('html,body').animate({scrollTop: position},'slow');
+	});
+</script>
