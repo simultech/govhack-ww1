@@ -44,7 +44,7 @@ class ApiController extends AppController {
  * @var array
  */
 
-	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'Slqqueenslandernews', 'demoinfo');
+	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'Slqqueenslandernews', 'demoinfo', 'posters');
 
 	
 	public $components = array('Trove');
@@ -244,15 +244,25 @@ class ApiController extends AppController {
 	 	die();
 	}
 	
-<<<<<<< HEAD
+
 	function demoinfo() {
 		header('Content-Type: application/json');
  		$data = $this->demoinfo->find('all');
-=======
+ 		echo json_encode($data);
+	 	die();
+	}
+
+
 	function slqqldnews() {
 		header('Content-Type: application/json');
  		$data = $this->Slqqueenslandernews->find('all');
->>>>>>> origin/master
+	 	echo json_encode($data);
+	 	die();
+	}
+	
+	function posters() {
+		header('Content-Type: application/json');
+ 		$data = $this->posters->find('all');
 	 	echo json_encode($data);
 	 	die();
 	}
