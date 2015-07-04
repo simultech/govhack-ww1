@@ -43,7 +43,7 @@ class ApiController extends AppController {
  *
  * @var array
  */
-	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'SLQQueenslanderNews');
+	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'SLQQueenslanderNews', 'demoinfo');
 	
 	public $components = array('Trove');
 
@@ -226,6 +226,13 @@ class ApiController extends AppController {
 	function soldierportraits() {
 		header('Content-Type: application/json');
  		$data = $this->Qldsoldierportrait->find('all');
+	 	echo json_encode($data);
+	 	die();
+	}
+	
+	function demoinfo() {
+		header('Content-Type: application/json');
+ 		$data = $this->demoinfo->find('all');
 	 	echo json_encode($data);
 	 	die();
 	}
