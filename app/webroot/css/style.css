@@ -2,14 +2,11 @@ div.test{
 	font-size: xx-large;
 	color: green;
 }
-
-
 div#header {
-	background:orange;
+
 }
 div#intro {
-	height:800px;
-	background:yellow;
+	height:100%;
 }
 div#timeline {
 	background:#333;
@@ -22,17 +19,14 @@ div#footer {
 	height:200px;
 	background:green;
 }
-
 div#war{
 	background: white;
 	height: 200px;
 }
-
 div#at_home{
 	background: red;
 	height: 200px;
 }
-
 .big_video{
 	background: black;
 }

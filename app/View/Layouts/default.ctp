@@ -38,24 +38,54 @@
     	}
     	#header {
 	    	text-align:center;
-	    	padding:100px;
+	    	padding:10px;
+	    	position:absolute;
+	    	width:100%;
+	    	height:100%;
     	}
     	#header h1 {
 	    	font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-	    	font-size:300%;
+	    	font-size:600%;
+	    	margin-top:30%;
+	    	margin-bottom:0px;
+    	}
+    	#timeline {
+	    	display:none;
+    	}
+    	#bgvidwrapper {
+	    	position:absolute;
+	    	width:100%;
+	    	overflow:hidden;
+	    	z-index:0;
+	    	top:0;
+	    	left:0;
+	    	bottom:0;
+    	}
+    	#bgvid {
+    		width:100%;
+	    	opacity:0.4;
+    	}
+    	body, html {
+	    	height:100%;
     	}
     </style>
 </head>
 <body>
-	<div id="container">
+	<div id="container" style="min-height:100%;">
 		<div id="header">
+		<div id='bgvidwrapper'>
+		<video autoplay loop poster="polina.jpg" id="bgvid">
+			<source src="/files/video/soldier_and_sweetheart.mp4" type="video/mp4">
+		</video>
+		</div>
+		
 			<h1>At war and at home</h1>
 			<h2>The great war - it tore us apart but it brought us together</h2>
 		</div>
 		<div id="intro">
 			Intro
 		</div>
-		<div id="timeline">
+		<div id="main">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 large_event">Big event</div>
@@ -78,6 +108,16 @@
 			<?php echo $this->element('timeline'); ?>
 		</div>
 	</div>
+	<script type="text/javascript">
+	$(window).on("scroll", function() {
+	    var scrollPos = $(window).scrollTop();
+	    if (scrollPos <= 0) {
+	        $("#timeline").fadeOut();
+	    } else {
+	        $("#timeline").fadeIn();
+	    }
+	});
+	</script>
 	<?php /*echo  $this->element('sql_dump'); */	?>
 </body>
 </html>

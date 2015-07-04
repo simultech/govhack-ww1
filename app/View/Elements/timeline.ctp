@@ -4,8 +4,9 @@
 		position:fixed;
 		z-index:100;
 		bottom:0;
-		background:red;
+		background:rgba(255,255,255,0.7);
 		width:100%;
+		border-top:1px solid #333;
 	}
 	div#bottomtimeline .line {
 		background:#333;
@@ -36,6 +37,7 @@
 		margin-top:20px;
 		font-size:90%;
 		font-family:"Helvetica";
+		color:#000;
 	}
 	div#bottomtimeline .start {
 		margin-left:10%;
