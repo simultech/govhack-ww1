@@ -29,11 +29,17 @@
 		<div id="header">
 			<h1>ww1</h1>
 		</div>
-		<div id="content">
+		<div id="intro">
+			Intro
+		</div>
+		<div id="timeline">
 
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
+		</div>
+		<div id="conclusion">
+			Conclusion
 		</div>
 		<div id="footer">
 			<p>Created by Whatamellon - Govhack 2015</p>
