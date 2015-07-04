@@ -11,10 +11,10 @@ function getsoldierportraits() {
 	})
 	.done(function(stories) {
     	for(var story in stories) {
-    	
+    		console.log(stories[story]['Qldsoldierportrait']);
     		var source   = $("#el-soldier").html();
 			var template = Handlebars.compile(source);
-			var context = {title: stories[story]['Qldsoldierportrait']['title'], body: stories[story]['Qldsoldierportrait']['description']};
+			var context = {title: stories[story]['Qldsoldierportrait']['title'], body: stories[story]['Qldsoldierportrait']['description'], img: stories[story]['Qldsoldierportrait']['500pixel']};
 			var html    = template(context);
 	    	$('#koko').append($(html));
     	}

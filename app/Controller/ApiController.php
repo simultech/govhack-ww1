@@ -243,7 +243,6 @@ class ApiController extends AppController {
 	 	echo json_encode($data);
 	 	die();
 	}
-	
 
 	function demoinfo() {
 		header('Content-Type: application/json');
@@ -262,7 +261,7 @@ class ApiController extends AppController {
 	
 	function posters() {
 		header('Content-Type: application/json');
- 		$data = $this->posters->find('all');
+ 		$data = $this->posters->find('all',array('order'=>'d'));
 	 	echo json_encode($data);
 	 	die();
 	}
