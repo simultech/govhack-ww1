@@ -115,7 +115,7 @@
 					<div class="col-md-6 home_head">At Home</div>
 				</div>
 			</div>
-			<div class="tn"></div>
+			<div class="tn"><span>1914 - Start of war</span></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 large_event">Big event</div>
