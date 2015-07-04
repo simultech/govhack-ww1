@@ -23,3 +23,13 @@ div#footer {
 	height:200px;
 	background:green;
 }
+
+div#war{
+	background: white;
+	height: 200px;
+}
+
+div#at_home{
+	background: red;
+	height: 200px;
+}

@@ -37,8 +37,7 @@
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="conclusion">
+				<div id="conclusion">
 			Conclusion
 		</div>
 		<div id="footer">
