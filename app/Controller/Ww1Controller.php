@@ -54,4 +54,12 @@ class Ww1Controller extends AppController {
 		$results = $this->Trove->search('worldwar1');
 		$this->set('results',$results);
 	}
+	
+	public function visual() {
+		
+	}
+	
+	public function lin() {
+		
+	}
 }
