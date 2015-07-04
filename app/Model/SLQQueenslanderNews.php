@@ -29,6 +29,6 @@ App::uses('Model', 'Model');
  *
  * @package       app.Model
  */
-class SLQQueenslanderNews extends AppModel {
+class Slqqueenslandernews extends AppModel {
 
 }
