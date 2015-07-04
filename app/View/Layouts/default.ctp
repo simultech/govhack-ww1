@@ -65,6 +65,9 @@
 		<div id="footer">
 			<p>Created by Whatamellon - Govhack 2015</p>
 		</div>
+		<div id='timeline'>
+			<?php echo $this->element('timeline'); ?>
+		</div>
 	</div>
 	<?php /*echo  $this->element('sql_dump'); */	?>
 </body>
