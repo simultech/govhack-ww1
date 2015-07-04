@@ -13,6 +13,7 @@
 		echo $this->Html->css('font-awesome.min');
 		echo $this->Html->css('grayscale');
 		echo $this->Html->css('style');
+		echo $this->Html->css('style1');
 
 		echo $this->Html->script('jquery-1.11.3.min');		
 		echo $this->Html->script('bootstrap.min');
