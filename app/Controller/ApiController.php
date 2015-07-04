@@ -239,7 +239,7 @@ class ApiController extends AppController {
 	
 	function soldierportraits() {
 		header('Content-Type: application/json');
- 		$data = $this->Qldsoldierportrait->find('all');
+ 		$data = $this->Qldsoldierportrait->find('all',array('order'=>'temporal'));
 	 	echo json_encode($data);
 	 	die();
 	}
@@ -268,10 +268,8 @@ class ApiController extends AppController {
 	}
         
         function testAPI() {
-            echo "DING";
             echo $this->callAPI("GET", "https://www.awm.gov.au/direct/data.php?key=ww1hack2015&q=conflict_category:%22Pre%20First%20World%20War%22%20AND%20type:%22Photograph%22");
             die();
-            
         }
         
         function callAPI($method, $url, $data = false)

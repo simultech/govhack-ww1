@@ -1,9 +1,25 @@
 
 $('document').ready(function() {
     console.log("STARTING");
-    
+    getsoldierportraits();
 });
 
+function getsoldierportraits() {
+	var url = 'http://atwarandathome.com/api/soldierportraits';
+	$.ajax({
+		url: url,
+	})
+	.done(function(stories) {
+    	for(var story in stories) {
+    	
+    		var source   = $("#el-soldier").html();
+			var template = Handlebars.compile(source);
+			var context = {title: stories[story]['Qldsoldierportrait']['title'], body: stories[story]['Qldsoldierportrait']['description']};
+			var html    = template(context);
+	    	$('#koko').append($(html));
+    	}
+	});
+}
 
 /**
  * Nothing fancy, general function for querying an API.

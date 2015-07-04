@@ -69,3 +69,14 @@ div.tnline {
 	z-index:199;
 	background:#000;
 }
+/*TAILOR*/
+div#tailor {
+	background:#ccc;
+	padding:20px;
+	color:#222;
+	padding-bottom:60px;
+}
+div#tailorinner {
+	width:50%;
+	margin:0 auto;
+}

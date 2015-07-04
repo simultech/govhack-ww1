@@ -17,12 +17,13 @@
 
 		echo $this->Html->script('jquery-1.11.3.min');		
 		echo $this->Html->script('bootstrap.min');
-                echo $this->Html->script('api_calls');
+        echo $this->Html->script('api_calls');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
 	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <style>
@@ -107,7 +108,11 @@
 		<div id="intro">
 			<?php echo $this->element('intro'); ?>
 		</div>
+		<div id="tailor">
+			<?php echo $this->element('tailor'); ?>
+		</div>
 		<div id="main">
+		<div id='koko'>
 			<div class="tnline"></div>
 			<div class="tn"><span>1914 - Start of war</span></div>
 			<div class="container timeline_header">
@@ -127,6 +132,7 @@
 				</div>
 			</div>
 			<div class="tn"></div>
+		</div>
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
@@ -151,5 +157,6 @@
 	});
 	</script>
 	<?php /*echo  $this->element('sql_dump'); */	?>
+	<?php echo $this->element('templates'); ?>
 </body>
 </html>
