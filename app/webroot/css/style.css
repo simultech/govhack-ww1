@@ -2,3 +2,34 @@ div.test{
 	font-size: xx-large;
 	color: green;
 }
+
+
+div#header {
+	background:orange;
+	height:200px;
+}
+div#intro {
+	height:800px;
+	background:yellow;
+}
+div#timeline {
+	background:#333;
+}
+div#conclusion {
+	height:800px;
+	background:purple;
+}
+div#footer {
+	height:200px;
+	background:green;
+}
+
+div#war{
+	background: white;
+	height: 200px;
+}
+
+div#at_home{
+	background: red;
+	height: 200px;
+}

@@ -43,7 +43,9 @@ class ApiController extends AppController {
  *
  * @var array
  */
-	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'SLQQueenslanderNews', 'demoinfo');
+
+	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'Slqqueenslandernews', 'demoinfo');
+
 	
 	public $components = array('Trove');
 
@@ -54,7 +56,7 @@ class ApiController extends AppController {
  * @return void
  */
  
- 	public function search($searchterm,$page=1,$forcerefresh=false) {
+ 	public function trove($searchterm,$page=1,$forcerefresh=false) {
 	 	$data = $this->Trove->search($searchterm,$page,$forcerefresh);
 	 	header('Content-Type: application/json');
 	 	echo json_encode($data);
@@ -223,6 +225,18 @@ class ApiController extends AppController {
 		$this->render(implode('/', $path));
 	}
 	
+	/* ENDPOINTS FOR DATA */
+	
+	function endpoints() {
+		$endpoints = array(
+			'http://203.101.227.39/api/slqqldnews',
+			'http://203.101.227.39/api/soldierportraits',
+			'http://203.101.227.39/api/trove/[SEARCHTERM]'
+		);
+		print_r(json_encode($endpoints));
+		die();
+	}
+	
 	function soldierportraits() {
 		header('Content-Type: application/json');
  		$data = $this->Qldsoldierportrait->find('all');
@@ -230,9 +244,15 @@ class ApiController extends AppController {
 	 	die();
 	}
 	
+<<<<<<< HEAD
 	function demoinfo() {
 		header('Content-Type: application/json');
  		$data = $this->demoinfo->find('all');
+=======
+	function slqqldnews() {
+		header('Content-Type: application/json');
+ 		$data = $this->Slqqueenslandernews->find('all');
+>>>>>>> origin/master
 	 	echo json_encode($data);
 	 	die();
 	}
