@@ -2,13 +2,14 @@
 	$('document').ready(function() {
 	function rendermain() {
 		var mn = $('#dyn');
+		var renderel = 0;
 		for(var d in data) {
 			var e = data[d];
 			console.log(e);
 			var output = "";
 			switch(e['type']) {
 				case 'event':
-					output = '<div class="tn"><span>'+e["text"]+'</span></div>';
+					output = '<div class="tn"><a name="el_'+renderel+'" id="el_'+renderel+'"></a><span>'+e["text"]+'</span></div>';
 					break;
 				case 'large':
 					var source   = $("#"+e['template']).html();
@@ -32,10 +33,17 @@
 					output += '</div></div>';
 					break;
 			}
+			renderel+=1;
 			mn.append(output);
 		}
 	}
+	function rendernodes() {
+		var nodespot = $('.nodes');
+		nodespot.append($('<div class="node" data-anchor="el_2" style="margin-left:20%;"><span>Start of war</span></div>'));
+		nodespot.append($('<div class="node" data-anchor="el_4" style="margin-left:40%;"><span>End of war</span></div>'));
+	}
 	rendermain();
+	rendernodes();
 	});
 </script>
 <div id='dyn' class='container'>
