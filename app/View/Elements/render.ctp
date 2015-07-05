@@ -38,9 +38,21 @@
 		}
 	}
 	function rendernodes() {
+		var cnt = 0;
+		for(var d in data) {
+			cnt += 1;
+		}
 		var nodespot = $('.nodes');
-		nodespot.append($('<div class="node" data-anchor="el_2" style="margin-left:20%;"><span>Start of war</span></div>'));
-		nodespot.append($('<div class="node" data-anchor="el_4" style="margin-left:40%;"><span>End of war</span></div>'));
+		var newcnt = 0;
+		for(var d in data) {
+			var e = data[d];
+			var pos = newcnt/cnt*60+20;
+			console.log(pos);
+			if(e['type'] == 'event') {
+				nodespot.append($('<div class="node" data-anchor="el_'+newcnt+'" style="margin-left:'+pos+'%;"><span>'+e['text']+'</span></div>'));
+			}
+			newcnt += 1;
+		}
 	}
 	rendermain();
 	rendernodes();

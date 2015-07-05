@@ -58,9 +58,11 @@
 </div>
 
 <script type="text/javascript">
+	$('document').ready(function () {
 	$('.node').click(function() {
 		var position = $('#'+$(this).data('anchor')).offset().top;
 		console.log(position);
 		$('html,body').animate({scrollTop: position},'slow');
+	});
 	});
 </script>
