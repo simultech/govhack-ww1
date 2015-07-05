@@ -2,7 +2,7 @@
 $('document').ready(function() {
     console.log("STARTING");
     //getsoldierportraits();
-    getposters();
+    //getposters();
 });
 
 function getsoldierportraits() {

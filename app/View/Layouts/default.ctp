@@ -50,25 +50,8 @@
 		</div>
 		<div id="main">
 		<div id='koko'>
-			<div class="tnline"></div>
-			<div class="tn"><span>1914 - Start of war</span></div>
-			<div class="container timeline_header">
-				<div class="row">
-					<div class="col-md-6 away_head">At War</div>
-					<div class="col-md-6 home_head">At Home</div>
-				</div>
-			</div>
-			<div class="tn"><span>1914 - Start of war</span></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 large_event">Big event</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 home_event">Home</div>
-					<div class="col-md-6 away_event">Away</div>
-				</div>
-			</div>
-			<div class="tn"></div>
+			<?php echo $this->element('data'); ?>
+			<?php echo $this->element('render'); ?>
 		</div>
 			<?php echo $this->Session->flash(); ?>
 

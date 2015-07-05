@@ -142,3 +142,10 @@ div#tailorinner {
     	.timeline_header div .home_head {
 	    	background-image:url('http://anzaccentenary.vic.gov.au/wp-content/uploads/2013/10/Banner-Melbourne%E2%80%99s-Swanston-street-in-1914-%E2%80%93-calm-and-confident.jpg');
     	}
+    	section {
+	    	border:1px solid #333;
+	    	overflow:auto;
+	    	background:#222;
+	    	margin:10px;
+	    	border-radius:4px;
+    	}
