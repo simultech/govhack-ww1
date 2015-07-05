@@ -30,7 +30,7 @@
 		background:#ddf;
 	}
 	div#bottomtimeline .node span {
-		display:block;
+		display:none;
 		width:210px;
 		text-align:center;
 		margin-left:-100px;
@@ -39,12 +39,20 @@
 		font-family:"Helvetica";
 		color:#000;
 	}
+	div#bottomtimeline .node:hover span {
+		display:block;
+	}
 	div#bottomtimeline .start {
 		margin-left:10%;
 	}
 	div#bottomtimeline .end {
 		margin-right:10%;
 		right:0;
+	}
+	div#koko {
+		background-image: url('../img/timeline.png');
+		background-repeat:repeat-y;
+		background-position:center center;
 	}
 </style>
 

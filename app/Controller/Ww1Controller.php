@@ -35,7 +35,7 @@ class Ww1Controller extends AppController {
  *
  * @var array
  */
-	public $uses = array('demoinfo');
+	public $uses = array('demoinfo','Poster');
 	public $components = array('Trove');
 
 /**
@@ -58,17 +58,43 @@ class Ww1Controller extends AppController {
 	
 	public function generatedata() {
 		$data = array();
-		$demoinfo = $this->demoinfo->find('all',array('order'=>'date'));
-		//print_r($demoinfo);
-		//print_r("hello");
-		///die();
+		$posters = $this->Poster->find('all',array('order'=>'d'));
+		$postercount = 0;
+		$demoinfo = $this->demoinfo->find('all',array('order'=>'caption'));
 		foreach($demoinfo as $dm) {
-			$data[] = array(
-				'type'=>'large',
-				'template'=>'el-demographic-'.$dm['demoinfo']['facttype'],
-				'data'=>$dm['demoinfo'],
-			);
+			if($dm['demoinfo']['facttype'] == 'event') {
+				$data[] = array(
+					'type'=>'event',
+					'text'=>$dm['demoinfo']['caption'],
+					'date'=>$dm['demoinfo']['date']
+				);
+			} else {
+				if($postercount < sizeOf($posters)) {
+					$poster = $posters[$postercount];
+				} else {
+					$poster = $posters[0];
+				}
+				$data[] = array(
+					'type'=>'split',
+					'date'=>$dm['demoinfo']['date'],
+					'war'=>array(
+						'type'=>'small',
+						'template'=>'el-poster',
+						'data'=>$poster['Poster'],
+					),
+					'home'=>array(
+						'type'=>'small',
+						'template'=>'el-demographic-'.$dm['demoinfo']['facttype'],
+						'data'=>$dm['demoinfo'],
+					)
+				);
+				$postercount+=1;
+			}
 		}
+		function cmp($a, $b) {
+			return strcmp($a['date'], $b['date']);
+		}
+		usort($data, "cmp");
 		$data = json_encode($data);
 		$data_old = "[
 		{

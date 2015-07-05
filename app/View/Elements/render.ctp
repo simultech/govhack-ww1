@@ -7,6 +7,7 @@
 			var e = data[d];
 			console.log(e);
 			var output = "";
+			console.log(e);
 			switch(e['type']) {
 				case 'event':
 					output = '<div class="tn"><a name="el_'+renderel+'" id="el_'+renderel+'"></a><span>'+e["text"]+'</span></div>';
