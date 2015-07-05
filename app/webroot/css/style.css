@@ -2,6 +2,11 @@ div.test{
 	font-size: xx-large;
 	color: green;
 }
+h3.header2 {
+	font-weight:100;
+	font-size:120%;
+	line-height:1.2em;
+}
 div#header {
 
 }
@@ -171,6 +176,7 @@ div#tailorinner {
 	    	background:#222;
 	    	margin:10px;
 	    	border-radius:4px;
+	    	padding-top:20px;
     	}
     	div#map {
 	    	width:1000px;
