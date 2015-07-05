@@ -56,19 +56,63 @@ class Ww1Controller extends AppController {
 		$this->set('results',$results);
 	}
 	
+	public function get_json($name) {
+		$data = json_decode(file_get_contents($name));
+		return $data;
+	}
+	
+	function url_exists($url) {
+    if (!$fp = curl_init($url)) return false;
+    return true;
+	}
+	
 	public function generatedata() {
+	
+	
 		$data = array();
 		$posters = $this->Poster->find('all',array('order'=>'d'));
 		$postercount = 0;
 		$demoinfo = $this->demoinfo->find('all',array('order'=>'caption'));
+		
+		$mydata = $this->get_json('files/awm_data_json/awm_embarkments.json');
+		
+		$resultsArray = $mydata->results;
+		foreach ($resultsArray as $result) {
+			$accession_number=$result->accession_number;
+			$url= "https://static.awm.gov.au/images/collection/items/ACCNUM_SCREEN/".$accession_number.".JPG";
+			
+			if($url != "https://static.awm.gov.au/images/collection/items/ACCNUM_SCREEN/DA13113.JPG"){
+		
+				$date_made = $result->date_made;
+				$date_made = $date_made[0];
+				$date_made = substr($date_made, 2);
+				$date_to_compare = date('Y-m-d H:i:s',strtotime($date_made));
+			
+		
+				$data[]=array(
+					'type'=>'large',
+					'template'=>'el-poster',
+					'date'=>$date_to_compare,
+					'data'=>array(
+						'description'=>$result->description,
+						'd'=>$date_made,
+						'identifier'=>$url
+					)
+				);
+			
+			}	
+		}
+
+		
 		foreach($demoinfo as $dm) {
 			if($dm['demoinfo']['facttype'] == 'event') {
-				$data[] = array(
+$data[] = array(
 					'type'=>'event',
 					'text'=>$dm['demoinfo']['caption'],
 					'date'=>$dm['demoinfo']['date']
 				);
 			} else {
+			
 				if($postercount < sizeOf($posters)) {
 					$poster = $posters[$postercount];
 				} else {
@@ -85,12 +129,14 @@ class Ww1Controller extends AppController {
 					'home'=>array(
 						'type'=>'small',
 						'template'=>'el-demographic-'.$dm['demoinfo']['facttype'],
-						'data'=>$dm['demoinfo'],
+						'data'=>array()//$dm['demoinfo'],
 					)
 				);
 				$postercount+=1;
 			}
 		}
+
+
 		function cmp($a, $b) {
 			return strcmp($a['date'], $b['date']);
 		}
