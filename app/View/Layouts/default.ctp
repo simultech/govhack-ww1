@@ -42,7 +42,7 @@
 		<div id="titlefix">
 
 		</div>
-		<div id="intro">
+		<div id="intro"><a name="intro"></a>
 			<?php echo $this->element('intro'); ?>
 		</div>
 		<div id="tailor">
@@ -56,7 +56,7 @@
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
-				<div id="conclusion">
+				<div id="conclusion"><a name="conclusion"></a>
 			Conclusion
 		</div>
 		<div id="footer">

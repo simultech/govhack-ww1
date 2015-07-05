@@ -2,7 +2,7 @@
 	div#bottomtimeline {
 		height:100px;
 		position:fixed;
-		z-index:100;
+		z-index:1000000;
 		bottom:0;
 		background:rgba(255,255,255,0.7);
 		width:100%;
@@ -50,17 +50,16 @@
 
 <div id='bottomtimeline'>
 	<div class='line'></div>
-	<div class='start node'></div>
+	<div class='start node' data-anchor="intro"><span>Introduction</span></div>
 	<div class='nodes'>
-		<div class='node' data-pos="20" style="margin-left:20%;"><span>Start of war</span></div>
-		<div class='node' data-pos="30" style="margin-left:30%;"><span>End of war</span></div>
+		
 	</div>
-	<div class='end node'></div>
+	<div class='end node' data-anchor="conclusion"><span>After the war</span></div>
 </div>
 
 <script type="text/javascript">
 	$('.node').click(function() {
-		var position = $(this).data('pos')+300;
+		var position = $('#'+$(this).data('anchor')).offset().top;
 		console.log(position);
 		$('html,body').animate({scrollTop: position},'slow');
 	});
