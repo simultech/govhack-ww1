@@ -31,11 +31,26 @@
 				</ul>
 			</div>
 			<div class="col-sm-6 col-md-5">
-				<div>
-					<div>
 						<img alt="" class="img-responsive" src="{{identifier}}">
-					</div>
-				</div>
 			</div>
 </section>
+</script>
+
+<script id="el-demographic" type="text/x-handlebars-template">
+	
+<section>
+	<div class="container">
+
+						<div class="col-sm-12 col-md-12 text-center">	
+							<h3 class = "header1">{{date}}</h3>
+							<div class = "value fa fa-group"></div>
+							<h3 class="value">{{caption}}</p></h5>
+							
+						</div>
+
+				</div>
+
+	</div>
+</section>
+
 </script>

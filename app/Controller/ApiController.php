@@ -265,6 +265,13 @@ class ApiController extends AppController {
 	 	echo json_encode($data);
 	 	die();
 	}
+	
+	function demographics() {
+		header('Content-Type: application/json');
+ 		$data = $this->demographics->find('all',array('order'=>'d'));
+	 	echo json_encode($data);
+	 	die();
+	}
         
         function testAPI() {
             echo $this->callAPI("GET", "https://www.awm.gov.au/direct/data.php?key=ww1hack2015&q=conflict_category:%22Pre%20First%20World%20War%22%20AND%20type:%22Photograph%22");

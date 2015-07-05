@@ -38,6 +38,38 @@ function getposters() {
 	});
 }
 
+function getdemographics() {
+	var url = 'http://atwarandathome.com/api/demographics';
+	$.ajax({
+		url: url,
+	})
+	.done(function(stories) {
+    	for(var story in stories) {
+    		var source   = $("#el-demographic").html();
+			var template = Handlebars.compile(source);
+			var context = stories[story]['demographics'];
+			var html    = template(context);
+	    	$('#koko').append($(html));
+    	}
+	});
+}
+
+function getdemographics() {
+	var url = 'http://atwarandathome.com/api/posters';
+	$.ajax({
+		url: url,
+	})
+	.done(function(stories) {
+    	for(var story in stories) {
+    		var source   = $("#el-poster").html();
+			var template = Handlebars.compile(source);
+			var context = stories[story]['posters'];
+			var html    = template(context);
+	    	$('#koko').append($(html));
+    	}
+	});
+}
+
 /**
  * Nothing fancy, general function for querying an API.
  * 
