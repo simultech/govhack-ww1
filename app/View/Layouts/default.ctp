@@ -70,12 +70,17 @@
 		<?php echo $this->element('map'); ?>
 	</div>
 	<script type="text/javascript">
+	var maploaded = false;
 	$(window).on("scroll", function() {
 	    var scrollPos = $(window).scrollTop();
 	    if (scrollPos <= $(window).height()*2) {
 	        $("#timeline").fadeOut();
 	    } else {
 	        $("#timeline").fadeIn();
+	        if(!maploaded) {
+		        mapload();
+		        maploaded = true;
+	        }
 	    }
 	});
 	</script>
