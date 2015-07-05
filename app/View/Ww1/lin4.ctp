@@ -17,11 +17,11 @@
 
 						</div>
 						<div class="col-sm-6 col-md-5">
-							<div>
+
 								<div>
 									<img alt="" class="img-responsive" src="/app/webroot/img/template/slwa_b1993041_1.jpg">
 								</div>
-							</div>
+
 
 						</div>
 	</div>

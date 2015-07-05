@@ -29,5 +29,14 @@ ul.list-icon.circle li:before {
 }
 
 .header{
-	color: #22a565
+	color: #22a565;
+}
+
+.header1{
+	color: #dc9531;
+}
+
+.value{
+	color: #3ba2c1;
+	font-size: 150%;
 }

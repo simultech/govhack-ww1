@@ -78,6 +78,10 @@ class Ww1Controller extends AppController {
 	public function lin4() {
 		
 	}
+	
+	public function lin5() {
+		
+	}
 		
 	public function visual1() {
 		

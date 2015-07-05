@@ -4,12 +4,7 @@
 
 					<div>
 						<div class="col-sm-12 col-md-12">
-							<div>
-								<div>
 									<img alt="" class="img-responsive" src="/app/webroot/img/template/ANZAC.jpg">
-								</div>
-							</div>
-
 						</div>
 
 						<div class="col-sm-12 col-md-12">
