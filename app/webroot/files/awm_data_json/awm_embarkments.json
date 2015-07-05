@@ -1,0 +1,930 @@
+{
+
+    "version": 0.2,
+    "version_major": 0,
+    "version_minor": 2,
+    "build": 21,
+    "status": 200,
+    "error": "OK",
+    "accesskey": "ww1hack2015",
+    "start": 3869,
+    "count": 10,
+    "clientid": "WW1hack",
+    "resources": 
+
+{
+
+    "enabled": 1,
+    "name": "WW1Hack",
+    "maxrecords": 10000,
+    "unlimitedrecords": 1,
+    "contact": "Adam Bell",
+    "email": "adam.bell@awm.gov.au",
+    "comment": ""
+
+},
+"format": "json",
+"type": "people",
+"query": "embarkment AND type:\"Photograph\"",
+"showLabels": false,
+"statusCode": "200",
+"statusMessage": "OK",
+"found": 17768,
+"results": 
+[
+
+{
+
+    "url": "cas.awm.gov.au/item/DA13107",
+    "accession_number": "DA13107",
+    "id": "C976324",
+    "description": "Studio portrait of 1767 Private (Pte) Francis Brewer Richardson, 2nd Reinforcements, 29th Battalion, of Melbourne, Vic. Pte Richardson enlisted on 16 July 1915 and embarked aboard HMAT Demosthenes on 29 October 1915. He returned to Australia on 13 April 1919 with the 32nd Battalion.",
+    "type": "Photograph",
+    "title": "Studio portrait of 1767 Private (Pte) Francis Brewer Richardson, 2nd Reinforcements, 29th Battalion, of Melbourne, Vic. Pte Richardson enlisted on 16 July 1915 and embarked aboard HMAT Demosthenes ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 22 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13110",
+    "accession_number": "DA13110",
+    "id": "C976327",
+    "description": "Studio portrait of 3602 Private (Pte) Thomas Harris Mather, 22nd Battalion, of Port Melbourne, Vic. Pte Mather enlisted on 12 July 1915 and embarked aboard HMAT Afric on 5 January 1916. He returned to Australia on 8 May 1919 with the 59th Battalion.",
+    "type": "Photograph",
+    "title": "Studio portrait of 3602 Private (Pte) Thomas Harris Mather, 22nd Battalion, of Port Melbourne, Vic. Pte Mather enlisted on 12 July 1915 and embarked aboard HMAT Afric on 5 January 1916. He returned ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 22 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13113",
+    "accession_number": "DA13113",
+    "id": "C976330",
+    "description": "Studio portrait of 3583 Private (Pte) James Henry Mills, 23rd Battalion, of Briagolong, Vic. Pte Mills enlisted on 6 August 1915 and embarked aboard HMAT Afric on 5 January 1915. On 30 January 1918 he returned to Australia with the 59th Battalion.",
+    "type": "Photograph",
+    "title": "Studio portrait of 3583 Private (Pte) James Henry Mills, 23rd Battalion, of Briagolong, Vic. Pte Mills enlisted on 6 August 1915 and embarked aboard HMAT Afric on 5 January 1915. On 30 January 1918 ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 22 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13115",
+    "accession_number": "DA13115",
+    "id": "C976332",
+    "description": "Studio portrait of 3670 Private (Pte) Joseph Arthur Yeates, 23rd Battalion, of Moonee Ponds, Vic. Pte Yeates enlisted on 4 September 1915 and embarked aboard HMAT Afric on 5 January 1916. On 16 January 1917 he died of wounds at Heilly in France.",
+    "type": "Photograph",
+    "title": "Studio portrait of 3670 Private (Pte) Joseph Arthur Yeates, 23rd Battalion, of Moonee Ponds, Vic. Pte Yeates enlisted on 4 September 1915 and embarked aboard HMAT Afric on 5 January 1916. On 16 ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Yeates, Joseph Arthur"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 13 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13118",
+    "accession_number": "DA13118",
+    "id": "C976335",
+    "description": "Studio portrait of 3633 Private (Pte) Ernest James Savage, 22nd Battalion, of Bairnsdale, Vic. Pte Savage enlisted on 26 July 1915 and embarked aboard HMAT Afric on 5 January 1916. On 13 February 1917 he returned to Australia with the 59th Battalion.",
+    "type": "Photograph",
+    "title": "Studio portrait of 3633 Private (Pte) Ernest James Savage, 22nd Battalion, of Bairnsdale, Vic. Pte Savage enlisted on 26 July 1915 and embarked aboard HMAT Afric on 5 January 1916. On 13 February ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 22 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13120",
+    "accession_number": "DA13120",
+    "id": "C976337",
+    "description": "Studio portrait of 4336 Private (Pte) Frederick Edward William Cotton, 12th Battalion, of Swansea, Tas. Pte Cotton enlisted on 9 September 1916 and embarked aboard HMAT Afric on 5 January 1916. On 16 September 1919 he was wounded in action. He returned to Australia 5 January 1920 with the Australian Army Pay Corps.",
+    "type": "Photograph",
+    "title": "Studio portrait of 4336 Private (Pte) Frederick Edward William Cotton, 12th Battalion, of Swansea, Tas. Pte Cotton enlisted on 9 September 1916 and embarked aboard HMAT Afric on 5 January 1916. On ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 22 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13121",
+    "accession_number": "DA13121",
+    "id": "C976338",
+    "description": "Studio portrait of 25387 Private (Pte) Claude Box, 3rd Divisional Ammunition Column, of Geraldton, WA and two unidentified soldiers. Pte Box enlisted on 4 January 1916 and embarked aboard HMAT Barambah on 27 June 1916. He returned to Australia on 16 January 1919 with the Aust. Emp. Coy.",
+    "type": "Photograph",
+    "title": "Studio portrait of 25387 Private (Pte) Claude Box, 3rd Divisional Ammunition Column, of Geraldton, WA and two unidentified soldiers. Pte Box enlisted on 4 January 1916 and embarked aboard HMAT ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 15 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13122",
+    "accession_number": "DA13122",
+    "id": "C976339",
+    "description": "Studio portrait of 13336 Private (Pte) Robert William Pickford, Australian Army Medical Corps, Special Reinforcements, of Ararat, Vic. Pte Pickford enlisted on 23 July 1915 and embarked from Melbourne on 7 March 1916. On 7 May 1916 he transferred to the 13th Field Ambulance. He returned to Australia on 3 September 1919 as a member of the 4th Machine Gun Battalion.",
+    "type": "Photograph",
+    "title": "Studio portrait of 13336 Private (Pte) Robert William Pickford, Australian Army Medical Corps, Special Reinforcements, of Ararat, Vic. Pte Pickford enlisted on 23 July 1915 and embarked from ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 12 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13123",
+    "accession_number": "DA13123",
+    "id": "C976340",
+    "description": "Studio portrait of 4288 Private (Pte) John Peoples, 8th Battalion, of Mortlake, Vic. Pte Peoples enlisted on 23 July 1915 and embarked aboard HMAT Demosthenes on 29 December 1915. On 24 November 1916 he was killed in action at the Somme in France while serving with the 58th Battalion. His name is commemorated at the Villers Bretonneux Memorial.",
+    "type": "Photograph",
+    "title": "Studio portrait of 4288 Private (Pte) John Peoples, 8th Battalion, of Mortlake, Vic. Pte Peoples enlisted on 23 July 1915 and embarked aboard HMAT Demosthenes on 29 December 1915. On 24 November ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Peoples, John"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 16 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/DA13124",
+    "accession_number": "DA13124",
+    "id": "C976341",
+    "description": "Studio portrait of 4138 Lance Corporal (LCpl) John Henry Beckman, 8th Battalion, of St Kilda, Vic. LCpl Beckman enlisted on 30 July 1915 and embarked aboard HMAT Demosthenes on 29 December 1915. He returned to Australia on 10 January 1918.",
+    "type": "Photograph",
+    "title": "Studio portrait of 4138 Lance Corporal (LCpl) John Henry Beckman, 8th Battalion, of St Kilda, Vic. LCpl Beckman enlisted on 30 July 1915 and embarked aboard HMAT Demosthenes on 29 December 1915. He ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Darge Photographic Company"
+
+],
+"maker_text": 
+[
+
+    "Darge Photographic Company"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Darge Photographic Company"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 20 December 1915"
+
+],
+"place_made": 
+[
+
+    "Australia: Victoria, Melbourne, Broadmeadows"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+            [
+                "Glass original half plate negative"
+            ]
+        }
+    ],
+    "labels": [ ]
+
+}

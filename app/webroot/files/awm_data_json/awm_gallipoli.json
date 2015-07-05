@@ -1,0 +1,1451 @@
+{
+
+    "version": 0.2,
+    "version_major": 0,
+    "version_minor": 2,
+    "build": 21,
+    "status": 200,
+    "error": "OK",
+    "accesskey": "ww1hack2015",
+    "start": 3479,
+    "count": 10,
+    "clientid": "WW1hack",
+    "resources": 
+
+{
+
+    "enabled": 1,
+    "name": "WW1Hack",
+    "maxrecords": 10000,
+    "unlimitedrecords": 1,
+    "contact": "Adam Bell",
+    "email": "adam.bell@awm.gov.au",
+    "comment": ""
+
+},
+"format": "json",
+"type": "people",
+"query": "gallipoli AND type:\"Photograph\"%",
+"showLabels": false,
+"statusCode": "200",
+"statusMessage": "OK",
+"found": 8181,
+"results": 
+[
+
+{
+
+    "url": "cas.awm.gov.au/item/P02226.021",
+    "accession_number": "P02226.021",
+    "id": "C300815",
+    "description": "Anzac Cove Area (Gallipoli). 1915-11-28. Two wounded Turkish soldiers lie on stretchers after being dragged behind their line by members of No. 2 Field Company, Royal Australian Engineers. They had fallen over the Australian tunnel during fighting the previous night and had lain wounded in the extremely cold conditions dressed only in khaki drill. Note the graves being dug in the background and the crosses of the nearby cemetery. (Original housed in AWM Archive Store)",
+    "type": "Photograph",
+    "title": "Anzac Cove Area (Gallipoli). 1915-11-28. Two wounded Turkish soldiers lie on stretchers after being dragged behind their line by members of No. 2 Field Company, Royal Australian Engineers. They had ...",
+    "related_subjects": 
+
+[
+
+    "Casualties",
+    "Casualty movement",
+    "Cold weather",
+    "Tunnels",
+    "War graves"
+
+],
+"other_numbers": 
+[
+
+    "Y035"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Anzac Beaches Area, Anzac Beach"
+
+],
+"related_places_id": 
+[
+
+    "PL24"
+
+],
+"related_places_label": 
+[
+
+    "PL24|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Anzac Beaches Area, Anzac Beach"
+
+],
+"related_units": 
+[
+
+    "2nd Field Company, Australian Engineers"
+
+],
+"related_units_id": 
+[
+
+    "U51322"
+
+],
+"related_units_label": 
+[
+
+    "U51322|2nd Field Company, Australian Engineers"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U50783",
+    "U60698",
+    "U50958",
+    "U51305",
+    "U51322"
+
+],
+"related_units_details": 
+[
+
+    "51322|2nd Field Company, Australian Engineers|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{77CB2142-E99F-4BAC-BA93-887C0AC91F02}:true:N:640x414"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/A01005",
+    "accession_number": "A01005",
+    "id": "C511",
+    "description": "1st Battalion troops having taken 80 yards of a Turkish trench, waiting near Jacob's Trench for relief by the 7th Battalion.  Identified from left: Captain Cecil Duncan Sasse, (with eyes bandaged, later Lieutenant Colonel, DSO and Bar, MID); 2211 Private George Wood (with legs crossed); 2173 Private Martin Maher, (smoking pipe); 2138 Private Walter Finn (hands near rifle muzzle); unidentified. These men had been fighting continuously from the beginning of the Lone Pine attack on 6 August 1915.",
+    "type": "Photograph",
+    "title": "1st Battalion troops having taken 80 yards of a Turkish trench, waiting near Jacob's Trench for relief by the 7th Battalion.  Identified from left: Captain Cecil Duncan Sasse, (with eyes bandaged, ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Unknown"
+
+],
+"maker_text": 
+[
+
+    "Unknown"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_places_id": 
+[
+
+    "PL57"
+
+],
+"related_places_label": 
+[
+
+    "PL57|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_units": 
+[
+
+    "1st Australian Infantry Battalion",
+    "7th Australian Infantry Battalion"
+
+],
+"related_units_id": 
+[
+
+    "U51441",
+    "U51447"
+
+],
+"related_units_label": 
+[
+
+    "U51441|1st Australian Infantry Battalion",
+    "U51447|7th Australian Infantry Battalion"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U50783",
+    "U60698",
+    "U50958",
+    "U51423",
+    "U51441",
+    "U50782",
+    "U50783",
+    "U60698",
+    "U50958",
+    "U51423",
+    "U51447"
+
+],
+"related_units_details": 
+[
+
+    "51441|1st Australian Infantry Battalion|",
+    "51447|7th Australian Infantry Battalion|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Sasse, Cecil Duncan"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "9 August 1915"
+
+],
+"place_made": 
+[
+
+    "Ottoman Empire: Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{86DF0638-AFB2-44B5-A1D3-93ACD73B59DA}:true:N:450x322"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/A04062",
+    "accession_number": "A04062",
+    "id": "C194576",
+    "description": "1st Battalion troops having taken 80 yards of a Turkish trench, waiting near Jacob's Trench for relief by the 7th Battalion. Identified from left: 1. Captain Cecil Duncan Sasse, (with eyes bandaged, later Lieutenant Colonel, DSO and Bar, MID); 3. 2211 Private George Wood (with legs crossed); 5. 2173 Private Martin Maher, (smoking pipe); 6. 2138 Private Walter Finn (hands near rifle muzzle); unidentified (not numbered). These men had been fighting continuously from the beginning of the Lone Pine attack on 6 August 1915.",
+    "type": "Photograph",
+    "title": "1st Battalion troops having taken 80 yards of a Turkish trench, waiting near Jacob's Trench for relief by the 7th Battalion. Identified from left: 1. Captain Cecil Duncan Sasse, (with eyes ...",
+    "related_subjects": 
+
+[
+
+    "Trenches"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"maker": 
+[
+
+    "Unknown"
+
+],
+"maker_text": 
+[
+
+    "Unknown"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_places_id": 
+[
+
+    "PL57"
+
+],
+"related_places_label": 
+[
+
+    "PL57|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_units": 
+[
+
+    "1st Australian Infantry Battalion",
+    "7th Australian Infantry Battalion"
+
+],
+"related_units_id": 
+[
+
+    "U51441",
+    "U51447"
+
+],
+"related_units_label": 
+[
+
+    "U51441|1st Australian Infantry Battalion",
+    "U51447|7th Australian Infantry Battalion"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U50783",
+    "U60698",
+    "U50958",
+    "U51423",
+    "U51441",
+    "U50782",
+    "U50783",
+    "U60698",
+    "U50958",
+    "U51423",
+    "U51447"
+
+],
+"related_units_details": 
+[
+
+    "51441|1st Australian Infantry Battalion|",
+    "51447|7th Australian Infantry Battalion|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Sasse, Cecil Duncan"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "9 August 1915"
+
+],
+"place_made": 
+[
+
+    "Ottoman Empire: Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{4CEAA928-8F80-4FF9-9FD4-851F95EFD1F3}:true:N:450x329"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/C01913",
+    "accession_number": "C01913",
+    "id": "C1011002",
+    "description": "A group of five officers in a gully on the Gallipoli Peninsula. Identified left to right (seated, nearest the camera): Captain George Frederick Wootten, Captain Cecil Duncan Sasse and Major Frederick James Kindon, all of the 1st Battalion; possibly Major William Davidson, 1st Battalion, who died of wounds on 19 August 1915. Standing: General William Riddell Birdwood, Officer Commanding the Australian and New Zealand Army Corps. The wooden crate on the far right contains or contained 50 pounds of biscuits.",
+    "type": "Photograph",
+    "title": "A group of five officers in a gully on the Gallipoli Peninsula. Identified left to right (seated, nearest the camera): Captain George Frederick Wootten, Captain Cecil Duncan Sasse and Major ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Unknown"
+
+],
+"maker_text": 
+[
+
+    "Unknown"
+
+],
+"makers_details": 
+[
+
+    "1|Maker|Unknown"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Kindon, Frederick James",
+    "Sasse, Cecil Duncan"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "June 1915"
+
+],
+"place_made": 
+[
+
+    "Ottoman Empire: Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Shrapnel Gully Area, Rest Gully"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{3C35CC88-B101-4B5A-9ED9-AA5B0423B1D3}:false:N:640x591"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/B00149",
+    "accession_number": "B00149",
+    "id": "C450898",
+    "description": "Group portrait of regimental officers of the 7th Australian Light Horse Regiment (7ALH), preparatory to revisiting Gallipoli. Identified, front row, third from left, probably Major Luke Bice, and fourth from left is Lieutenant Colonel John Dalyell Richardson DSO Order of the Nile, 3rd Class, Commanding Officer. In late 1918, members of 7ALH were chosen to represent the regiment on a tour of the old battlefields of Gallipoli. The group, predominantly made up of Gallipoli veterans, disembarked on the peninsula on 4 December 1918.",
+    "type": "Photograph",
+    "title": "Group portrait of regimental officers of the 7th Australian Light Horse Regiment (7ALH), preparatory to revisiting Gallipoli. Identified, front row, third from left, probably Major Luke Bice, and ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Campbell, James Pinkerton"
+
+],
+"maker_text": 
+[
+
+    "Campbell, James Pinkerton"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Campbell, James Pinkerton"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Richardson, John Dalyell"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c.25-26 November 1918"
+
+],
+"place_made": 
+[
+
+    "Egypt: Suez Canal, Kantara"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/G01029A",
+    "accession_number": "G01029A",
+    "id": "C57466",
+    "description": "Gallipoli Peninsula, Turkey. 8 June 1915. Sergeant Harry Freame, 1st Battalion AIF, looking through a loophole. Near the Tambour sap in Wire Gully, we cut two loopholes in the face of the hill, looking at the Turks. A sniper used to crawl down a tunnel from our trenches and fire through these.",
+    "type": "Photograph",
+    "title": "Gallipoli Peninsula, Turkey. 8 June 1915. Sergeant Harry Freame, 1st Battalion AIF, looking through a loophole. Near the Tambour sap in Wire Gully, we cut two loopholes in the face of the hill, ...",
+    "related_subjects": 
+
+[
+
+    "Saps",
+    "Sniping",
+    "Trenches",
+    "Tunnels"
+
+],
+"object_type": 
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"maker_text": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Quinn's Post Area, Wire Gully"
+
+],
+"related_places_id": 
+[
+
+    "PL73"
+
+],
+"related_places_label": 
+[
+
+    "PL73|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Quinn's Post Area, Wire Gully"
+
+],
+"related_units": 
+[
+
+    "Turkish Army"
+
+],
+"related_units_id": 
+[
+
+    "U61001"
+
+],
+"related_units_label": 
+[
+
+    "U61001|Turkish Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60355",
+    "U61001"
+
+],
+"related_units_details": 
+[
+
+    "61001|Turkish Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Freame, Wykeham Henry Koba 'Harry'"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "8 June 1915"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/G01030A",
+    "accession_number": "G01030A",
+    "id": "C57468",
+    "description": "Gallipoli Peninsula, Turkey. 8 June 1915. Sergeant Harry Freame, 1st Battalion AIF looking through the loophole. Near the Tambour Sap in Wire Gully, we cut two loopholes in the face of the hill, looking at the Turks. A sniper used to crawl down a tunnel from our trenches and fire through these.",
+    "type": "Photograph",
+    "title": "Gallipoli Peninsula, Turkey. 8 June 1915. Sergeant Harry Freame, 1st Battalion AIF looking through the loophole. Near the Tambour Sap in Wire Gully, we cut two loopholes in the face of the hill, ...",
+    "related_subjects": 
+
+[
+
+    "Saps",
+    "Sniping",
+    "Trenches",
+    "Tunnels"
+
+],
+"object_type": 
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"maker_text": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Quinn's Post Area, Wire Gully"
+
+],
+"related_places_id": 
+[
+
+    "PL73"
+
+],
+"related_places_label": 
+[
+
+    "PL73|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Quinn's Post Area, Wire Gully"
+
+],
+"related_units": 
+[
+
+    "Turkish Army"
+
+],
+"related_units_id": 
+[
+
+    "U61001"
+
+],
+"related_units_label": 
+[
+
+    "U61001|Turkish Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60355",
+    "U61001"
+
+],
+"related_units_details": 
+[
+
+    "61001|Turkish Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Freame, Wykeham Henry Koba 'Harry'"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "8 June 1915"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/G01087",
+    "accession_number": "G01087",
+    "id": "C57659",
+    "description": "Gallipoli Peninsula, Turkey. c. 1 August 1915. Anzac Cove is here depicted as it was in July and August 1915. At this time the Australians and New Zealanders (Anzacs) were well established at their base, but although the Turks had been pushed well back into the interior the spot was never absolutely free from shells which came from the Turkish guns hidden in the distant hills.",
+    "type": "Photograph",
+    "title": "Gallipoli Peninsula, Turkey. c. 1 August 1915. Anzac Cove is here depicted as it was in July and August 1915. At this time the Australians and New Zealanders (Anzacs) were well established at their ...",
+    "related_subjects": 
+
+[
+
+    "Artillery"
+
+],
+"object_type": 
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"maker_text": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Anzac Beaches Area, Anzac Beach"
+
+],
+"related_places_id": 
+[
+
+    "PL24"
+
+],
+"related_places_label": 
+[
+
+    "PL24|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Anzac Beaches Area, Anzac Beach"
+
+],
+"related_units": 
+[
+
+    "Royal New Zealand Army",
+    "Turkish Army"
+
+],
+"related_units_id": 
+[
+
+    "U13252",
+    "U61001"
+
+],
+"related_units_label": 
+[
+
+    "U13252|Royal New Zealand Army",
+    "U61001|Turkish Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13252",
+    "U50782",
+    "U60355",
+    "U61001"
+
+],
+"related_units_details": 
+[
+
+    "13252|Royal New Zealand Army|",
+    "61001|Turkish Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c 01 Aug 1915"
+
+],
+"secondary_image": 
+[
+
+    "2:lowres:{194F577B-6888-45C3-9461-61B7A54E9715}:false:N:640x378"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/G01293",
+    "accession_number": "G01293",
+    "id": "C46335",
+    "description": "Gallipoli Peninsula, Turkey. November 1915. The cemetery in Shrapnel Gully. The men paid very great attention to this and other cemeteries during the last few days of the occupation. This cemetery was near the mouth of the Gully. Main Sap can be seen running past the left hand side of it. In the distance are Deadman's Ridge and Turkish position on Chess Board, from which the Turks sniped down the valley.",
+    "type": "Photograph",
+    "title": "Gallipoli Peninsula, Turkey. November 1915. The cemetery in Shrapnel Gully. The men paid very great attention to this and other cemeteries during the last few days of the occupation. This cemetery ...",
+    "related_subjects": 
+
+[
+
+    "Board games",
+    "Saps",
+    "Sniping",
+    "War graves"
+
+],
+"object_type": 
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"maker_text": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Shrapnel Gully Area, Shrapnel Gully"
+
+],
+"related_places_id": 
+[
+
+    "PL90"
+
+],
+"related_places_label": 
+[
+
+    "PL90|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Shrapnel Gully Area, Shrapnel Gully"
+
+],
+"related_units": 
+[
+
+    "Turkish Army"
+
+],
+"related_units_id": 
+[
+
+    "U61001"
+
+],
+"related_units_label": 
+[
+
+    "U61001|Turkish Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60355",
+    "U61001"
+
+],
+"related_units_details": 
+[
+
+    "61001|Turkish Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"related_people": 
+[
+
+    "Bean, Charles Edwin Woodrow (C E W)"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "November 1915"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/G01939",
+    "accession_number": "G01939",
+    "id": "C194650",
+    "description": "The remains of trenches and overhead cover at Lone Pine from which both sides would throw bombs at each other. The Turkish monument, which marks the spot where the Anzac August 1915 advance at Lone Pine was stopped by the Turks, is on the left.  Major Zeki Bey, a Turkish soldier who fought at Anzac during 1915 is standing on the skyline at left.  One of a series of photographs taken on the Gallipoli Peninsula under the direction of Captain C E W Bean of the Australian Historical Mission, during the months of February and March, 1919.",
+    "type": "Photograph",
+    "title": "The remains of trenches and overhead cover at Lone Pine from which both sides would throw bombs at each other. The Turkish monument, which marks the spot where the Anzac August 1915 advance at Lone ...",
+    "related_subjects": 
+
+[
+
+    "Bombs",
+    "Memorials",
+    "Trenches"
+
+],
+"object_type": 
+[
+
+    "Black & white - Glass original whole-plate negative"
+
+],
+"maker": 
+[
+
+    "Wilkins, George Hubert"
+
+],
+"maker_text": 
+[
+
+    "Wilkins, George Hubert"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Wilkins, George Hubert"
+
+],
+"related_places": 
+[
+
+    "Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_places_id": 
+[
+
+    "PL57"
+
+],
+"related_places_label": 
+[
+
+    "PL57|Middle East: Ottoman Empire, Turkey, Dardanelles, Gallipoli, Anzac Area (Gallipoli), Lone Pine Area, Lone Pine"
+
+],
+"related_units": 
+[
+
+    "Turkish Army",
+    "Turkish Army"
+
+],
+"related_units_id": 
+[
+
+    "U15103",
+    "U61001"
+
+],
+"related_units_label": 
+[
+
+    "U15103|Turkish Army",
+    "U61001|Turkish Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U15103",
+    "U50782",
+    "U60355",
+    "U61001"
+
+],
+"related_units_details": 
+[
+
+    "15103|Turkish Army|",
+    "61001|Turkish Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Period 1910-1919",
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "No conflict",
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "67:Period 1910-1919",
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "67:Period 1900-1914",
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "1919"
+
+],
+"place_made": 
+[
+
+    "Ottoman Empire: Turkey, Marmara, Chanak, Gallipoli Peninsula"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+            [
+                "Glass original whole"
+            ]
+        }
+    ],
+    "labels": [ ]
+
+}

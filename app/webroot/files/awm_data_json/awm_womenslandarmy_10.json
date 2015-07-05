@@ -1,0 +1,1200 @@
+{
+
+    "version": 0.2,
+    "version_major": 0,
+    "version_minor": 2,
+    "build": 21,
+    "status": 200,
+    "error": "OK",
+    "accesskey": "ww1hack2015",
+    "start": 100,
+    "count": 10,
+    "clientid": "WW1hack",
+    "resources": 
+
+{
+
+    "enabled": 1,
+    "name": "WW1Hack",
+    "maxrecords": 10000,
+    "unlimitedrecords": 1,
+    "contact": "Adam Bell",
+    "email": "adam.bell@awm.gov.au",
+    "comment": ""
+
+},
+"format": "json",
+"type": "people",
+"query": "\"Women's Land Army\" AND type:\"Photograph\"",
+"showLabels": false,
+"statusCode": "200",
+"statusMessage": "OK",
+"found": 193,
+"results": 
+[
+
+{
+
+    "url": "cas.awm.gov.au/item/058961",
+    "accession_number": "058961",
+    "id": "C212107",
+    "description": "ATHERTON, QLD. 1943-10-25. MEMBERS OF THE AUSTRALIAN WOMEN'S LAND ARMY ABOARD AN AUSTRALIAN RED CROSS SOCIETY UTILITY TRUCK, READY TO GO FOR A SUNDAY OUTING TO ONE OF THE LOCAL BEAUTY SPOTS. SHOWN: FIELD OFFICER 1 E. DEAN (1); PRIVATE (PTE) M. ZAMPECH (2); PTE B. SINCLAIR (3); PTE M. CLANCY (4); PTE C. LOFTHOUSE (5); PTE M. BULFIN (6); PTE E. SUTCLIFFE (7); PTE M. HEIRONYMUS (8); PTE M. PICKETT (9).",
+    "type": "Photograph",
+    "title": "ATHERTON, QLD. 1943-10-25. MEMBERS OF THE AUSTRALIAN WOMEN'S LAND ARMY ABOARD AN AUSTRALIAN RED CROSS SOCIETY UTILITY TRUCK, READY TO GO FOR A SUNDAY OUTING TO ONE OF THE LOCAL BEAUTY SPOTS. SHOWN: ...",
+    "related_subjects": 
+
+[
+
+    "Trucks",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"maker": 
+[
+
+    "Tait, James"
+
+],
+"maker_text": 
+[
+
+    "Tait, James"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Tait, James"
+
+],
+"related_places": 
+[
+
+    "Oceania: Australia, Queensland, North Queensland, Atherton Tableland, Atherton"
+
+],
+"related_places_id": 
+[
+
+    "PL699"
+
+],
+"related_places_label": 
+[
+
+    "PL699|Oceania: Australia, Queensland, North Queensland, Atherton Tableland, Atherton"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army",
+    "Red Cross"
+
+],
+"related_units_id": 
+[
+
+    "U13377",
+    "U13445"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army",
+    "U13445|Red Cross"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377",
+    "U52143",
+    "U13437",
+    "U13445"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|",
+    "13445|Red Cross|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/P02621.001",
+    "accession_number": "P02621.001",
+    "id": "C348023",
+    "description": "Hanwood, NSW. 1944. Mary Steele, Australian Women's Land Army, sitting behind the wheel of a McCormick Deering Standard tractor which she had learnt to drive at Chadney's Farm. At this farm she also learnt to drive a three ton truck so she could drive produce into Griffith to the cannery and packing sheds. Miss Steele joined the Land Army at age sixteen, and spent three years at various farms, picking fruit and crops and ploughing. (Donor M. Robinson)",
+    "type": "Photograph",
+    "title": "Hanwood, NSW. 1944. Mary Steele, Australian Women's Land Army, sitting behind the wheel of a McCormick Deering Standard tractor which she had learnt to drive at Chadney's Farm. At this farm she ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture",
+    "Tractors",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army"
+
+],
+"related_units_id": 
+[
+
+    "U13377"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/P02621.002",
+    "accession_number": "P02621.002",
+    "id": "C348024",
+    "description": "Hanwood, NSW. 1944. Mary Steele, Australian Women's Land Army, stands beside a horse pulling a cart (obscured) that was used to load apples at Chadney's Farm. At this farm she also learnt to drive a three ton truck, so she could drive produce into Griffith to the cannery and packing sheds, and a tractor. Miss Steele joined the Land Army at age sixteen, and spent three years in various places, picking fruit and crops and ploughing. (Donor M. Robinson)",
+    "type": "Photograph",
+    "title": "Hanwood, NSW. 1944. Mary Steele, Australian Women's Land Army, stands beside a horse pulling a cart (obscured) that was used to load apples at Chadney's Farm. At this farm she also learnt to drive ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture",
+    "Carts",
+    "Horses",
+    "Vegetables",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army"
+
+],
+"related_units_id": 
+[
+
+    "U13377"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/P02707.001",
+    "accession_number": "P02707.001",
+    "id": "C355157",
+    "description": "Tambar Springs, NSW. December 1945. A member of the Australian Women's Land Army washing her clothes in a boiler on Merrigular Property owned by Mr Cadell near Premer. Six members of the Land Army, worked on this property and lived in shearer's huts, two to a room. The women undertook a variety of jobs around the farm, including lamb marking, dipping, cleaning the fly blown eyes of sheep, helping in the shearing shed, driving and maintaining a tractor and header, cutting and baling seed lucerne, and harvesting wheat. The women worked long and irregular hours and had no set leave, earning 30/- per week. (Donor P. George)",
+    "type": "Photograph",
+    "title": "Tambar Springs, NSW. December 1945. A member of the Australian Women's Land Army washing her clothes in a boiler on Merrigular Property owned by Mr Cadell near Premer. Six members of the Land Army, ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army"
+
+],
+"related_units_id": 
+[
+
+    "U13377"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/P02708.001",
+    "accession_number": "P02708.001",
+    "id": "C358130",
+    "description": "Griffith, NSW. 1944. Six members of the \"Dramatic Fanatics\", a dramatic society formed by a group of members of the Australian Women's Land Army (AWLA), preparing to join a street parade in Griffith to advertise the Land Army Queen competition. They are dressed in simple costumes, standing on the bed of a truck in front of Mirrool House, a boarding house taken over by the government for AWLA accommodation. Identified, left to right: Roma Smith, Janet Pilcher, Barb Sullivan, Betty Grenfell, Dulcie Senior and Gwen (Skipper) Rowe. (Donor F. George)",
+    "type": "Photograph",
+    "title": "Griffith, NSW. 1944. Six members of the \"Dramatic Fanatics\", a dramatic society formed by a group of members of the Australian Women's Land Army (AWLA), preparing to join a street parade in ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture",
+    "Beds and bedding",
+    "Group portraits",
+    "Parades",
+    "Theatre",
+    "Trucks",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army"
+
+],
+"related_units_id": 
+[
+
+    "U13377"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/P02716.001",
+    "accession_number": "P02716.001",
+    "id": "C355661",
+    "description": "Lithgow, NSW. 1943. Eve Burgess, a member of the Australian Women's Land Army, driving a spray tank at May's Estate which was used to spray the apple orchard. It was pulled by three bullocks named Spot, Dick and Rowdy. Many members of the Land Army had allergies to the chemical sprays, which were made up of arsenic, lead and other mineral poisons, as well as allergies to the animals and seasonal changes. Many also suffered dermatitis caused by oil, grease and caustic or corrosive liquids. (Donor E. Garrett)",
+    "type": "Photograph",
+    "title": "Lithgow, NSW. 1943. Eve Burgess, a member of the Australian Women's Land Army, driving a spray tank at May's Estate which was used to spray the apple orchard. It was pulled by three bullocks named ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture",
+    "Animals",
+    "Gas warfare",
+    "Tanks",
+    "Vegetables",
+    "Women"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_units": 
+[
+
+    "Australian Women's Land Army"
+
+],
+"related_units_id": 
+[
+
+    "U13377"
+
+],
+"related_units_label": 
+[
+
+    "U13377|Australian Women's Land Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U13346",
+    "U13377"
+
+],
+"related_units_details": 
+[
+
+    "13377|Australian Women's Land Army|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/014926",
+    "accession_number": "014926",
+    "id": "C34182",
+    "description": "LEETON, NSW. 1943-06-08. MISS JUNE OSMOND, AUSTRALIAN WOMEN'S LAND ARMY, HELPING TO HARVEST A CROP OF GRAPES. BEFORE JOINING THE ARMY SHE WAS A TEXTILE WORKER NEAR SYDNEY. (NEGATIVE BY MCNEIL). (COPY IN ALBUM PRESENTED TO DR EDITH SUMMERSKILL P. 155).",
+    "type": "Photograph",
+    "title": "LEETON, NSW. 1943-06-08. MISS JUNE OSMOND, AUSTRALIAN WOMEN'S LAND ARMY, HELPING TO HARVEST A CROP OF GRAPES. BEFORE JOINING THE ARMY SHE WAS A TEXTILE WORKER NEAR SYDNEY. (NEGATIVE BY MCNEIL). ...",
+    "related_subjects": 
+
+[
+
+    "Agriculture"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_places": 
+[
+
+    "Oceania: Australia, New South Wales, Sydney"
+
+],
+"related_places_id": 
+[
+
+    "PL1053"
+
+],
+"related_places_label": 
+[
+
+    "PL1053|Oceania: Australia, New South Wales, Sydney"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/083186",
+    "accession_number": "083186",
+    "id": "C82072",
+    "description": "TANK ROCK, QLD. 1944-11-15. SOME OF THE LARGE CROWD COMPRISING MEMBERS OF HQ 7 DIVISION, AND 7 DIV PROVOST AND THEIR PARTNERS PHOTOGRAPHED IN THE KOALA CLUB BETWEEN DANCES. MEMBERS OF THE AWAS, AUSTRALIAN ARMY MEDICAL WOMEN'S SERVICE, THE WOMEN'S LAND ARMY AND CIVILIANS PROVIDED THE PARTNERS.",
+    "type": "Photograph",
+    "title": "TANK ROCK, QLD. 1944-11-15. SOME OF THE LARGE CROWD COMPRISING MEMBERS OF HQ 7 DIVISION, AND 7 DIV PROVOST AND THEIR PARTNERS PHOTOGRAPHED IN THE KOALA CLUB BETWEEN DANCES. MEMBERS OF THE AWAS, ...",
+    "related_subjects": 
+
+[
+
+    "Dance"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_places": 
+[
+
+    "Oceania: Australia, Queensland, North Queensland, Tank Rock"
+
+],
+"related_places_id": 
+[
+
+    "PL2332"
+
+],
+"related_places_label": 
+[
+
+    "PL2332|Oceania: Australia, Queensland, North Queensland, Tank Rock"
+
+],
+"related_units": 
+[
+
+    "7 Division",
+    "Australian Army Medical Women's Service",
+    "Australian Women's Army Service",
+    "Australian Women's Land Army",
+    "Headquarters units",
+    "Provost units"
+
+],
+"related_units_id": 
+[
+
+    "U13040",
+    "U13348",
+    "U13351",
+    "U13377",
+    "U13194",
+    "U14563"
+
+],
+"related_units_label": 
+[
+
+    "U13040|7 Division",
+    "U13348|Australian Army Medical Women's Service",
+    "U13351|Australian Women's Army Service",
+    "U13377|Australian Women's Land Army",
+    "U13194|Headquarters units",
+    "U14563|Provost units"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U11186",
+    "U13031",
+    "U13040",
+    "U52143",
+    "U13346",
+    "U13347",
+    "U13348",
+    "U52143",
+    "U13346",
+    "U13347",
+    "U13351",
+    "U52143",
+    "U13346",
+    "U13377",
+    "U52143",
+    "U13194",
+    "U52143",
+    "U14563"
+
+],
+"related_units_details": 
+[
+
+    "13040|7 Division|",
+    "13348|Australian Army Medical Women's Service|",
+    "13351|Australian Women's Army Service|",
+    "13377|Australian Women's Land Army|",
+    "13194|Headquarters units|",
+    "14563|Provost units|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/083187",
+    "accession_number": "083187",
+    "id": "C82073",
+    "description": "TANK ROCK, QLD. 1944-11-15. SIRIUS, THE \"DUMMY\" HORSE, PROVIDING AMUSEMENT ON THE DANCE FLOOR OF THE KOALA CLUB, HQ 7 DIVISION DURING THE WOMEN'S SONG GUESSING COMPETITION. MEMBERS OF THE 7 DIV PROVOST, AWAS, AUSTRALIAN ARMY MEDICAL WOMEN'S SERVICE, THE WOMEN'S LAND ARMY AND CIVILIANS PARTICIPATED.",
+    "type": "Photograph",
+    "title": "TANK ROCK, QLD. 1944-11-15. SIRIUS, THE \"DUMMY\" HORSE, PROVIDING AMUSEMENT ON THE DANCE FLOOR OF THE KOALA CLUB, HQ 7 DIVISION DURING THE WOMEN'S SONG GUESSING COMPETITION. MEMBERS OF THE 7 DIV ...",
+    "related_subjects": 
+
+[
+
+    "Dance"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_places": 
+[
+
+    "Oceania: Australia, Queensland, North Queensland, Tank Rock"
+
+],
+"related_places_id": 
+[
+
+    "PL2332"
+
+],
+"related_places_label": 
+[
+
+    "PL2332|Oceania: Australia, Queensland, North Queensland, Tank Rock"
+
+],
+"related_units": 
+[
+
+    "7 Division",
+    "Australian Army Medical Women's Service",
+    "Australian Women's Army Service",
+    "Australian Women's Land Army",
+    "Headquarters units",
+    "Provost units"
+
+],
+"related_units_id": 
+[
+
+    "U13040",
+    "U13348",
+    "U13351",
+    "U13377",
+    "U13194",
+    "U14563"
+
+],
+"related_units_label": 
+[
+
+    "U13040|7 Division",
+    "U13348|Australian Army Medical Women's Service",
+    "U13351|Australian Women's Army Service",
+    "U13377|Australian Women's Land Army",
+    "U13194|Headquarters units",
+    "U14563|Provost units"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U11186",
+    "U13031",
+    "U13040",
+    "U52143",
+    "U13346",
+    "U13347",
+    "U13348",
+    "U52143",
+    "U13346",
+    "U13347",
+    "U13351",
+    "U52143",
+    "U13346",
+    "U13377",
+    "U52143",
+    "U13194",
+    "U52143",
+    "U14563"
+
+],
+"related_units_details": 
+[
+
+    "13040|7 Division|",
+    "13348|Australian Army Medical Women's Service|",
+    "13351|Australian Women's Army Service|",
+    "13377|Australian Women's Land Army|",
+    "13194|Headquarters units|",
+    "14563|Provost units|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+    [
+        "Black & white"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/083188",
+    "accession_number": "083188",
+    "id": "C82074",
+    "description": "KAIRI, QLD. 1944-11-15. SIRIUS, THE \"DUMMY\" HORSE, PROVIDING AMUSEMENT ON THE DANCE FLOOR OF THE KOALA CLUB, HQ 7 DIVISION DURING THE WOMEN'S SONG GUESSING COMPETITION. MEMBERS OF THE 7 DIV PROVOST, AWAS, AUSTRALIAN ARMY MEDICAL WOMEN'SERVICE, THE WOMEN'S LAND ARMY AND CIVILIANS PARTICIPATED.",
+    "type": "Photograph",
+    "title": "KAIRI, QLD. 1944-11-15. SIRIUS, THE \"DUMMY\" HORSE, PROVIDING AMUSEMENT ON THE DANCE FLOOR OF THE KOALA CLUB, HQ 7 DIVISION DURING THE WOMEN'S SONG GUESSING COMPETITION. MEMBERS OF THE 7 DIV ...",
+    "related_subjects": 
+
+[
+
+    "Dance"
+
+],
+"object_type": 
+[
+
+    "Black & white"
+
+],
+"related_places": 
+[
+
+    "Oceania: Australia, Queensland, North Queensland, Atherton Tableland, Kairi"
+
+],
+"related_places_id": 
+[
+
+    "PL716"
+
+],
+"related_places_label": 
+[
+
+    "PL716|Oceania: Australia, Queensland, North Queensland, Atherton Tableland, Kairi"
+
+],
+"related_units": 
+[
+
+    "7 Division",
+    "Australian Women's Army Service",
+    "Australian Women's Land Army",
+    "Headquarters units",
+    "Provost units"
+
+],
+"related_units_id": 
+[
+
+    "U13040",
+    "U13351",
+    "U13377",
+    "U13194",
+    "U14563"
+
+],
+"related_units_label": 
+[
+
+    "U13040|7 Division",
+    "U13351|Australian Women's Army Service",
+    "U13377|Australian Women's Land Army",
+    "U13194|Headquarters units",
+    "U14563|Provost units"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U52143",
+    "U11186",
+    "U13031",
+    "U13040",
+    "U52143",
+    "U13346",
+    "U13347",
+    "U13351",
+    "U52143",
+    "U13346",
+    "U13377",
+    "U52143",
+    "U13194",
+    "U52143",
+    "U14563"
+
+],
+"related_units_details": 
+[
+
+    "13040|7 Division|",
+    "13351|Australian Women's Army Service|",
+    "13377|Australian Women's Land Army|",
+    "13194|Headquarters units|",
+    "14563|Provost units|"
+
+],
+"related_conflicts": 
+[
+
+    "Second World War, 1939-1945"
+
+],
+"conflict_category": 
+[
+
+    "Second World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"conflict_search": 
+[
+
+    "10:Second World War, 1939-1945"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"descriptor": 
+[
+
+    "Black & white"
+
+],
+"object_type_main": 
+
+            [
+                "Black & white"
+            ]
+        }
+    ],
+    "labels": [ ]
+
+}

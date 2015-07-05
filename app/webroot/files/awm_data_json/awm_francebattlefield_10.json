@@ -1,0 +1,958 @@
+{
+
+    "version": 0.2,
+    "version_major": 0,
+    "version_minor": 2,
+    "build": 21,
+    "status": 200,
+    "error": "OK",
+    "accesskey": "ww1hack2015",
+    "start": 150,
+    "count": 10,
+    "clientid": "WW1hack",
+    "resources": 
+
+{
+
+    "enabled": 1,
+    "name": "WW1Hack",
+    "maxrecords": 10000,
+    "unlimitedrecords": 1,
+    "contact": "Adam Bell",
+    "email": "adam.bell@awm.gov.au",
+    "comment": ""
+
+},
+"format": "json",
+"type": "people",
+"query": "france AND battlefield AND type:\"Photograph\"",
+"showLabels": false,
+"statusCode": "200",
+"statusMessage": "OK",
+"found": 301,
+"results": 
+[
+
+{
+
+    "url": "cas.awm.gov.au/item/EZ0068",
+    "accession_number": "EZ0068",
+    "id": "C995849",
+    "description": "A German shell bursting on the battlefield.  On the horizon are a few straggly trees, probably shattered by shellfire.  Between 23 July and early September 1916, the 1st, 2nd and 4th Divisions between them launched 19 attacks on German positions in and around the ruins of Pozieres.  The Australians suffered 23,000 casualties while advancing two kilometres.",
+    "type": "Photograph",
+    "title": "A German shell bursting on the battlefield.  On the horizon are a few straggly trees, probably shattered by shellfire.  Between 23 July and early September 1916, the 1st, 2nd and 4th Divisions ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "British Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "British Official Photographer",
+    "British Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|British Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "1916"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/EZ0069",
+    "accession_number": "EZ0069",
+    "id": "C995850",
+    "description": "Two unidentified soldiers rubbing down horses.  A third horse is eating some hay.  The area where the horses are tethered (horse lines) is a shell hole on the old battlefield.  Australian drivers were noted for giving their horses a high standard of care in difficult conditions.",
+    "type": "Photograph",
+    "title": "Two unidentified soldiers rubbing down horses.  A third horse is eating some hay.  The area where the horses are tethered (horse lines) is a shell hole on the old battlefield.  Australian drivers ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "British Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "British Official Photographer",
+    "British Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|British Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "1916"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01019",
+    "accession_number": "E01019",
+    "id": "C954528",
+    "description": "View showing 'Brind's Cut' and a portion of the Pozieres battlefield, where those members of the 6th and 7th Australian Infantry Brigade who fell in this vicinity during the fighting of 1916 lie buried. A lone cross is in the foreground and a group of five crosses is visible right background.",
+    "type": "Photograph",
+    "title": "View showing 'Brind's Cut' and a portion of the Pozieres battlefield, where those members of the 6th and 7th Australian Infantry Brigade who fell in this vicinity during the fighting of 1916 lie ...",
+    "object_type": 
+
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "16 September 1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{ECB1407E-F468-4140-AF81-5D5929AB6B09}:true:N:262x450"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E02207",
+    "accession_number": "E02207",
+    "id": "C960859",
+    "description": "A view of the battlefield of Dernancourt.  This area is where the 12th and 13th Australian Infantry Brigades broke the massed assaults of nearly four German divisions during their thrust towards Amiens on 5 April 1918.  In the background (left) is a shell damaged farm shed.  Note several wine botles scattered across the foreground.  This is the left hand image in a two part panorama.  See E02207P for the combined image.",
+    "type": "Photograph",
+    "title": "A view of the battlefield of Dernancourt.  This area is where the 12th and 13th Australian Infantry Brigades broke the massed assaults of nearly four German divisions during their thrust towards ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c April 1918"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Corbie Albert Area, Dernancourt"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01008C",
+    "accession_number": "E01008C",
+    "id": "C954786",
+    "description": "The Pozieres battlefield and the old German trench lines.  A railway line is visible cutting across the countryside and the remains of the village and orchard can be seen in the background centre.  Note the dirt road on the right and a white cross to the left of the road.  This is the third image in a four part panorama.  See E01008P for the combined image.",
+    "type": "Photograph",
+    "title": "The Pozieres battlefield and the old German trench lines.  A railway line is visible cutting across the countryside and the remains of the village and orchard can be seen in the background centre.  ...",
+    "object_type": 
+
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "16 September 1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{7D5EBDDF-178E-48FA-8A4B-CE4E773E1296}:true:N:450x261"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01007A",
+    "accession_number": "E01007A",
+    "id": "C954781",
+    "description": "The battlefield of Pozieres as seen from the cemetery. An unidentified Australian soldier is walking along Church Road Junction (centre, right) and another soldier is standing in the back of a motor lorry (forground, far left).  In the background, across the centre, is the trench that runs to the orchard.  Note in the centre a white cross and a limber on either side of the road.  This is left hand image in a two part panorama.  See E01007P for the combined image.",
+    "type": "Photograph",
+    "title": "The battlefield of Pozieres as seen from the cemetery. An unidentified Australian soldier is walking along Church Road Junction (centre, right) and another soldier is standing in the back of a ...",
+    "object_type": 
+
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{7A842AAF-EE90-4CD4-8E77-7F2A588FD03E}:true:N:450x263"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01011A",
+    "accession_number": "E01011A",
+    "id": "C968904",
+    "description": "View of 'Kay' communication trench leading from Kay's dump to Mouquet Farm on the battlefield of Pozieres. The graves dotted over the ground in this vicinity and the old shell holes are a fair indication of what the conditions were in this area during the fighting in July, August and September 1916.  This is a stereo image.  One half of the image is held at E01011.",
+    "type": "Photograph",
+    "title": "View of 'Kay' communication trench leading from Kay's dump to Mouquet Farm on the battlefield of Pozieres. The graves dotted over the ground in this vicinity and the old shell holes are a fair ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass stereo negative"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "September 1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass stereo negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/C00841",
+    "accession_number": "C00841",
+    "id": "C1000973",
+    "description": "A memorial erected on the battlefield to honour the officers and men of the 1st Australian Division who died during the battle to take Pozieres from the Germans in July 1916. (From the collection of 704 Driver Ernest Charles Barnes who served with the 1st Field Artillery Brigade, 21st Howitzer Brigade and 2nd Field Artillery Brigade.)",
+    "type": "Photograph",
+    "title": "A memorial erected on the battlefield to honour the officers and men of the 1st Australian Division who died during the battle to take Pozieres from the Germans in July 1916. (From the collection ...",
+    "object_type": 
+
+[
+
+    "Black & white - Glass original half plate negative"
+
+],
+"maker": 
+[
+
+    "Barnes, Ernest Charles"
+
+],
+"maker_text": 
+[
+
+    "Barnes, Ernest Charles",
+    "Barnes, Ernest Charles"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Barnes, Ernest Charles"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "c July 1916"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Glass original half plate negative"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01005H",
+    "accession_number": "E01005H",
+    "id": "C954757",
+    "description": "The Pozieres battlefield, taken from near the strongly fortified enemy concrete redoubt called Gibraltar.  This strongpoint dominated the surrounding country and was at the centre of the severe fighting took place during the historic battles in July and August of 1916.  This is the eighth image in a nine part panorama.  See E01005P for the combined image.",
+    "type": "Photograph",
+    "title": "The Pozieres battlefield, taken from near the strongly fortified enemy concrete redoubt called Gibraltar.  This strongpoint dominated the surrounding country and was at the centre of the severe ...",
+    "object_type": 
+
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "23 September 1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{5A721D4A-11DC-4CEB-A115-AFB37C659A46}:true:N:450x260"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Film original negative nitrate other"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/E01005E",
+    "accession_number": "E01005E",
+    "id": "C954754",
+    "description": "The Pozieres battlefield, taken from near the strongly fortified enemy concrete redoubt called Gibraltar.  This strongpoint dominated the surrounding country and was at the centre of the severe fighting took place during the historic battles in July and August of 1916.  This is the fifth image in a nine part panorama.  See E01005P for the combined image.",
+    "type": "Photograph",
+    "title": "The Pozieres battlefield, taken from near the strongly fortified enemy concrete redoubt called Gibraltar.  This strongpoint dominated the surrounding country and was at the centre of the severe ...",
+    "object_type": 
+
+[
+
+    "Black & white - Film original negative nitrate other"
+
+],
+"maker": 
+[
+
+    "Unknown Australian Official Photographer"
+
+],
+"maker_text": 
+[
+
+    "Unknown Australian Official Photographer",
+    "Unknown Australian Official Photographer"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Unknown Australian Official Photographer"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"date_made": 
+[
+
+    "23 September 1917"
+
+],
+"place_made": 
+[
+
+    "France: Picardie, Somme, Albert Bapaume Area, Pozieres Area, Pozieres"
+
+],
+"secondary_image": 
+[
+
+    "2:reference:{3CE45AD6-8208-4781-AA2C-080843CD8000}:true:N:450x260"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+            [
+                "Film original negative nitrate other"
+            ]
+        }
+    ],
+    "labels": [ ]
+
+}

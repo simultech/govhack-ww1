@@ -1,0 +1,1189 @@
+{
+
+    "version": 0.2,
+    "version_major": 0,
+    "version_minor": 2,
+    "build": 21,
+    "status": 200,
+    "error": "OK",
+    "accesskey": "ww1hack2015",
+    "start": 9473,
+    "count": 10,
+    "clientid": "WW1hack",
+    "resources": 
+
+{
+
+    "enabled": 1,
+    "name": "WW1Hack",
+    "maxrecords": 10000,
+    "unlimitedrecords": 1,
+    "contact": "Adam Bell",
+    "email": "adam.bell@awm.gov.au",
+    "comment": ""
+
+},
+"format": "json",
+"type": "people",
+"query": "soldier AND type:\"Photograph\"",
+"showLabels": false,
+"statusCode": "200",
+"statusMessage": "OK",
+"found": 22083,
+"results": 
+[
+
+{
+
+    "url": "cas.awm.gov.au/item/H04665",
+    "accession_number": "H04665",
+    "id": "C297614",
+    "description": "Marne, France. 1915-09-27. A French Army soldier inside a defence position constructed in a land mine crater near Perthes. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Marne, France. 1915-09-27. A French Army soldier inside a defence position constructed in a land mine crater near Perthes. (Donor French Government)",
+    "related_subjects": 
+
+[
+
+    "Land mines"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_places_id": 
+[
+
+    "PL822"
+
+],
+"related_places_label": 
+[
+
+    "PL822|Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04673",
+    "accession_number": "H04673",
+    "id": "C297617",
+    "description": "Marne, France. 1915-10-08. A crater, made by a French Army land mine, in a trench which had been occupied by German soldiers. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Marne, France. 1915-10-08. A crater, made by a French Army land mine, in a trench which had been occupied by German soldiers. (Donor French Government)",
+    "related_subjects": 
+
+[
+
+    "Land mines",
+    "Trenches"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_places_id": 
+[
+
+    "PL822"
+
+],
+"related_places_label": 
+[
+
+    "PL822|Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04715",
+    "accession_number": "H04715",
+    "id": "C297623",
+    "description": "Marne, France. 1917-08-17. French soldiers in a trench in the gully of La Fontaine aux Charmes near La Harazee. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Marne, France. 1917-08-17. French soldiers in a trench in the gully of La Fontaine aux Charmes near La Harazee. (Donor French Government)",
+    "related_subjects": 
+
+[
+
+    "Trenches"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_places_id": 
+[
+
+    "PL822"
+
+],
+"related_places_label": 
+[
+
+    "PL822|Europe: France, Champagne-Ardenne, Marne"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04748",
+    "accession_number": "H04748",
+    "id": "C297636",
+    "description": "Alsace, France. 1917-05-09. French soldiers resting behind Rocher du Renard (La Renard Rock) near Boucle de la Cerna before leaving for their third attack on the enemy in the area. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Alsace, France. 1917-05-09. French soldiers resting behind Rocher du Renard (La Renard Rock) near Boucle de la Cerna before leaving for their third attack on the enemy in the area. (Donor French ...",
+    "related_subjects": 
+
+[
+
+    "Military operations"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Alsace"
+
+],
+"related_places_id": 
+[
+
+    "PL1005"
+
+],
+"related_places_label": 
+[
+
+    "PL1005|Europe: France, Alsace"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04792",
+    "accession_number": "H04792",
+    "id": "C297663",
+    "description": "Alsace, France. c. 1917. Two French soldiers with a loaded pack mule in snow covered country. The French Army used mules for conveyance of provisions and ammunition in difficult country. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Alsace, France. c. 1917. Two French soldiers with a loaded pack mule in snow covered country. The French Army used mules for conveyance of provisions and ammunition in difficult country. (Donor ...",
+    "related_subjects": 
+
+[
+
+    "Cold weather",
+    "Mules"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Alsace"
+
+],
+"related_places_id": 
+[
+
+    "PL1005"
+
+],
+"related_places_label": 
+[
+
+    "PL1005|Europe: France, Alsace"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04827",
+    "accession_number": "H04827",
+    "id": "C297695",
+    "description": "Vosges, France. c. 1917. A log shelter building used by members of the French Army moving along the Lake Blanc road. The two soldiers in the photograph have a pack horse with them. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Vosges, France. c. 1917. A log shelter building used by members of the French Army moving along the Lake Blanc road. The two soldiers in the photograph have a pack horse with them. (Donor French ...",
+    "related_subjects": 
+
+[
+
+    "Buildings",
+    "Horses"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Vosges"
+
+],
+"related_places_id": 
+[
+
+    "PL1016"
+
+],
+"related_places_label": 
+[
+
+    "PL1016|Europe: France, Vosges"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04855",
+    "accession_number": "H04855",
+    "id": "C297699",
+    "description": "Vosges, France. c. 1917. German prisoners of war marching along the Collett to Gerardmer road guarded by mounted French soldiers. A working party looks on from the side of the road. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Vosges, France. c. 1917. German prisoners of war marching along the Collett to Gerardmer road guarded by mounted French soldiers. A working party looks on from the side of the road. (Donor French ...",
+    "related_subjects": 
+
+[
+
+    "Prisoners of war"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Vosges"
+
+],
+"related_places_id": 
+[
+
+    "PL1016"
+
+],
+"related_places_label": 
+[
+
+    "PL1016|Europe: France, Vosges"
+
+],
+"related_units": 
+[
+
+    "French Army",
+    "German Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998",
+    "U61000"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army",
+    "U61000|German Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998",
+    "U50782",
+    "U60999",
+    "U61000"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|",
+    "61000|German Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04865",
+    "accession_number": "H04865",
+    "id": "C297701",
+    "description": "Alsace, France. c. 1917. Five French soldiers outside a war damaged building which is beside the entrance to a cutting leading to the trenches. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Alsace, France. c. 1917. Five French soldiers outside a war damaged building which is beside the entrance to a cutting leading to the trenches. (Donor French Government)",
+    "related_subjects": 
+
+[
+
+    "War damage"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Alsace"
+
+],
+"related_places_id": 
+[
+
+    "PL1005"
+
+],
+"related_places_label": 
+[
+
+    "PL1005|Europe: France, Alsace"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H04869",
+    "accession_number": "H04869",
+    "id": "C297702",
+    "description": "Alsace, France. c. 1917. French soldiers resting around a machine which controls a sausage observation balloon operating over the front lines. (Donor French Government)",
+    "type": "Photograph",
+    "title": "Alsace, France. c. 1917. French soldiers resting around a machine which controls a sausage observation balloon operating over the front lines. (Donor French Government)",
+    "related_subjects": 
+
+[
+
+    "Balloons"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"related_places": 
+[
+
+    "Europe: France, Alsace"
+
+],
+"related_places_id": 
+[
+
+    "PL1005"
+
+],
+"related_places_label": 
+[
+
+    "PL1005|Europe: France, Alsace"
+
+],
+"related_units": 
+[
+
+    "French Army"
+
+],
+"related_units_id": 
+[
+
+    "U60998"
+
+],
+"related_units_label": 
+[
+
+    "U60998|French Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60997",
+    "U60998"
+
+],
+"related_units_details": 
+[
+
+    "60998|French Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+    [
+        "Print silver gelatin"
+    ]
+
+},
+{
+
+    "url": "cas.awm.gov.au/item/H12328",
+    "accession_number": "H12328",
+    "id": "C328308",
+    "description": "Beau Sejour, France. A section of the German Army trench system with some German soldiers moving across country behind a smoke screen. (Donor Imperial War Museum Q23755)",
+    "type": "Photograph",
+    "title": "Beau Sejour, France. A section of the German Army trench system with some German soldiers moving across country behind a smoke screen. (Donor Imperial War Museum Q23755)",
+    "related_subjects": 
+
+[
+
+    "Smokescreens",
+    "Trenches"
+
+],
+"object_type": 
+[
+
+    "Black & white - Print silver gelatin"
+
+],
+"maker": 
+[
+
+    "Deutsche Reichsarchiv"
+
+],
+"maker_text": 
+[
+
+    "Deutsche Reichsarchiv"
+
+],
+"makers_details": 
+[
+
+    "1|Photographer|Deutsche Reichsarchiv"
+
+],
+"related_units": 
+[
+
+    "German Army"
+
+],
+"related_units_id": 
+[
+
+    "U61000"
+
+],
+"related_units_label": 
+[
+
+    "U61000|German Army"
+
+],
+"related_unit_all_ids": 
+[
+
+    "U50782",
+    "U60999",
+    "U61000"
+
+],
+"related_units_details": 
+[
+
+    "61000|German Army|"
+
+],
+"related_conflicts": 
+[
+
+    "First World War, 1914-1918"
+
+],
+"conflict_category": 
+[
+
+    "First World War"
+
+],
+"related_conflict_sort": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"conflict_search": 
+[
+
+    "8:First World War, 1914-1918"
+
+],
+"copyright_status": 
+[
+
+    "Copyright expired - public domain"
+
+],
+"object_type_main": 
+[
+
+    "Black & white"
+
+],
+"object_type_sub": 
+
+            [
+                "Print silver gelatin"
+            ]
+        }
+    ],
+    "labels": [ ]
+
+}
