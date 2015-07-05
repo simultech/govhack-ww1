@@ -26,9 +26,8 @@
 		<div class="col-sm-6 col-md-5">
 		    <h3 class = "header">{{title}}</h3>
 		    <p>{{body}}</p>
-		    <p>Collection of "In Memoriam" cards with photographs of West Australians killed during the First World War, with brief biographical notes.</p>
 		    <ul class="list-icon">
-		    	<li>Published: 1917</li>
+		    	<li>Published: {{d}}</li>
 		    </ul>
 		</div>
 	</section>
@@ -54,9 +53,9 @@
 <script id="el-demographic-people" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#5baf5a">{{date}}</h3>
+				<div class = "fa fa-group" style="color:#5baf5a; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -65,9 +64,9 @@
 <script id="el-demographic-people-female" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-female"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#e85094">{{date}}</h3>
+				<div class = "value fa fa-female" style="color:#e85094; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -76,9 +75,9 @@
 <script id="el-demographic-people-male" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-male"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#5bb6d1;">{{date}}</h3>
+				<div class = "value fa fa-male" style="color:#5bb6d1; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -87,9 +86,9 @@
 <script id="el-demographic-proportion" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-pied-pipper"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#b28146;">{{date}}</h3>
+				<div class = "value fa fa-pied-pipper" style="color:#b28146; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -98,11 +97,11 @@
 <script id="el-demographic-decrease" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-long-arrow-down"></div>
+				<h3 class = "header1" style="color:#ce514c;">{{date}}</h3>
+				<div class = "value fa fa-long-arrow-down" style="color:#ce514c; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
-				<h3 class="value">{{caption}}</p></h5>
+				<h3 class="value">{{caption}}</h3>
 			</div>
 	</section>
 </script>
@@ -110,11 +109,11 @@
 <script id="el-demographic-increase" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-long-arrow-up"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#9ac54f;">{{date}}</h3>
+				<div class = "value fa fa-long-arrow-up" style="color:#9ac54f; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
-				<h3 class="value">{{caption}}</p></h5>
+				<h3 class="value">{{caption}}</h3>
 			</div>
 	</section>
 </script>
@@ -122,9 +121,9 @@
 <script id="el-demographic-event" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#fff000 ;">{{date}}</h3>
+				<div class = "value fa fa-star" style="color:#fff000; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -133,9 +132,9 @@
 <script id="el-demographic-indigenous" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-star"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#fff000;">{{date}}</h3>
+				<div class = "value fa fa-star" style="color:#fff000; font-size:250%; margin-bottom:5px;""></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -144,9 +143,9 @@
 <script id="el-demographic-proportion-increase" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-long-arrow-up"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#9ac54f;">{{date}}</h3>
+				<div class = "value fa fa-long-arrow-up" style="color:#9ac54f; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
 			</div>
 	</section>
@@ -155,10 +154,19 @@
 <script id="el-demographic-proportion-decrease" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa-long-arrow-down"></div>
-					<h3 class="value">{{caption}}</p></h3>
+				<h3 class = "header1" style="color:#ce514c;">{{date}}</h3>
+				<div class = "value fa fa-long-arrow-down" style="color:#ce514c; font-size:250%; margin-bottom:5px;"></div>
+					<h3 class="value">{{caption}}</h3>
 				</div>
+			</div>
+	</section>
+</script>
+
+<script id="el-newspaper" type="text/x-handlebars-template">
+	<section>
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header2">{{formal}}</h3>
+				<a href="{{1000pixel}}" target="_blank"><img alt="" class="img-responsive" src="{{500pixel}}"></a>
 			</div>
 	</section>
 </script>
