@@ -44,7 +44,7 @@ class ApiController extends AppController {
  * @var array
  */
 
-	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'Slqqueenslandernews', 'demoinfo', 'posters');
+	public $uses = array('Article','Story','Test', 'Qldsoldierportrait', 'Slqqueenslandernews', 'demoinfo', 'posters','ABCLocalPhotos');
 
 	
 	public $components = array('Trove');

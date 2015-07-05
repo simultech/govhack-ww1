@@ -35,7 +35,7 @@ class Ww1Controller extends AppController {
  *
  * @var array
  */
-	public $uses = array('demoinfo','Poster');
+	public $uses = array('demoinfo','Poster','ABCLocalPhoto');
 	public $components = array('Trove');
 
 /**
@@ -66,6 +66,17 @@ class Ww1Controller extends AppController {
     return true;
 	}
 	
+	function utf8ize($d) {
+    if (is_array($d)) {
+        foreach ($d as $k => $v) {
+            $d[$k] = $this->utf8ize($v);
+        }
+    } else if (is_string ($d)) {
+        return utf8_encode($d);
+    }
+    return $d;
+}
+	
 	public function generatedata() {
 	
 	
@@ -74,8 +85,11 @@ class Ww1Controller extends AppController {
 		$postercount = 0;
 		$demoinfo = $this->demoinfo->find('all',array('order'=>'caption'));
 		
-		$mydata = $this->get_json('files/awm_data_json/awm_embarkments.json');
 		
+		
+		
+		///AWM data
+		$mydata = $this->get_json('files/awm_data_json/awm_embarkments.json');
 		$resultsArray = $mydata->results;
 		foreach ($resultsArray as $result) {
 			$accession_number=$result->accession_number;
@@ -103,10 +117,42 @@ class Ww1Controller extends AppController {
 			}	
 		}
 
+	//ANKITH BEGIN
+	//ANKITh
+		$abclocalphoto = $this->ABCLocalPhoto->find('all',array('order'=>'Date'));
+		//$abclocalphoto = $abclocalphoto[0];
+		
+		//print_r($abclocalphoto);
+		//die();
+		$count = 0;
+		$showHeader = 'display:none;';
+		foreach($abclocalphoto as $abc){
+			if($count==0){
+				$showHeader = 'display:block;';		
+			}
+			$data[]=array(
+					'type'=>'large',
+					'template'=>'el-abclocalphoto',
+					'date'=>$abc['ABCLocalPhoto']['Date'],
+					'data'=>array(
+						'title'=>$abc['ABCLocalPhoto']['title'],
+						'caption'=>$abc['ABCLocalPhoto']['primaryimagecaption'],
+						'identifier'=>$abc['ABCLocalPhoto']['primaryimageURL'],
+						'location'=>$abc['ABCLocalPhoto']['place'],
+						'd'=>$abc['ABCLocalPhoto']['Date'],
+						'showHeader'=>$showHeader
+					)
+			);
+			$count++;
+			
+		}
+		//print_r($data);
+	
+	//END ANKITh
 		
 		foreach($demoinfo as $dm) {
 			if($dm['demoinfo']['facttype'] == 'event') {
-$data[] = array(
+				$data[] = array(
 					'type'=>'event',
 					'text'=>$dm['demoinfo']['caption'],
 					'date'=>$dm['demoinfo']['date']
@@ -141,7 +187,7 @@ $data[] = array(
 			return strcmp($a['date'], $b['date']);
 		}
 		usort($data, "cmp");
-		$data = json_encode($data);
+		$data = json_encode($this->utf8ize($data));
 		$data_old = "[
 		{
 			'type':'event',
@@ -209,4 +255,5 @@ $data[] = array(
 	public function visual1() {
 		
 	}
+	
 }
