@@ -78,7 +78,7 @@ div.tn span {
 	font-size:150%;
 	width:800px;
 	display:block;
-	margin-top:70px;
+	margin-top:67px;
 	text-align:center;
 	margin-left:-370px;
 	background:#000;
@@ -177,6 +177,7 @@ div#tailorinner {
 	    	margin:10px;
 	    	border-radius:4px;
 	    	padding-top:20px;
+	    	padding-bottom:10px;
     	}
     	div#map {
 	    	width:1000px;

@@ -63,6 +63,9 @@
 “Lest we forget” and become divided again...</p>
 			<img src='/img/Logo-05.png' />
 		</div>
+		<div id="tailor">
+			<?php echo $this->element('contribute'); ?>
+		</div>
 		<div id="footer">
 			<p class='right'><a href="https://github.com/simultech/govhack-ww1" target="_blank">Open Source on Github</a></p>
 			<p>Created by Whatamellon - Govhack 2015</p>

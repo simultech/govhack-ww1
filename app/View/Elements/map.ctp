@@ -46,7 +46,7 @@
                 });
                 markers.push(marker);
                 var marker2 = new google.maps.Marker({
-                    position: new google.maps.LatLng(-35.6700, 133.9400),
+                    position: new google.maps.LatLng(-35.6700, 127.9400),
                     map: map,
                     animation: google.maps.Animation.DROP,
                     icon: "http://www.kolor.com/wiki-en/images-en/3/30/APT_resources_hotspots_gk_20100115_01.gif",

@@ -67,7 +67,7 @@
 	<div class='nodes'>
 		
 	</div>
-	<div class='end node' data-anchor="conclusion"><span>After the war</span></div>
+	<div class='end node' data-anchor="conclusion"><span>Contribute</span></div>
 </div>
 
 <script type="text/javascript">
