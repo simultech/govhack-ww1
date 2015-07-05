@@ -101,7 +101,6 @@
 				<div class = "value fa fa-long-arrow-down" style="color:#ce514c; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
-				<h3 class="value">{{caption}}</h3>
 			</div>
 	</section>
 </script>
@@ -113,7 +112,6 @@
 				<div class = "value fa fa-long-arrow-up" style="color:#9ac54f; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
-				<h3 class="value">{{caption}}</h3>
 			</div>
 	</section>
 </script>
