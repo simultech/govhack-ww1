@@ -15,7 +15,7 @@ function getsoldierportraits() {
     		console.log(stories[story]['Qldsoldierportrait']);
     		var source   = $("#el-soldier").html();
 			var template = Handlebars.compile(source);
-			var context = {title: stories[story]['Qldsoldierportrait']['title'], body: stories[story]['Qldsoldierportrait']['description'], img: stories[story]['Qldsoldierportrait']['500pixel']};
+			var context = {title: stories[story]['Qldsoldierportrait']['title'], body: stories[story]['Qldsoldierportrait']['description'], img: stories[story]['Qldsoldierportrait']['500pixel'],date: stories[story]['Qldsoldierportrait']['date']};
 			var html    = template(context);
 	    	$('#koko').append($(html));
     	}
