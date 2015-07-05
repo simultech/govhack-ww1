@@ -20,8 +20,7 @@
 
 <script id="el-poster" type="text/x-handlebars-template">
 
-<section>
-		<div>
+	<section>
 			<div class="col-sm-6 col-md-7">
 				<h3 class = "header">{{title}}</h3>
 				<p>{{description}}</p>
@@ -33,7 +32,7 @@
 			<div class="col-sm-6 col-md-5">
 						<img alt="" class="img-responsive" src="{{identifier}}">
 			</div>
-</section>
+	</section>
 </script>
 
 <script id="el-demographic-people" type="text/x-handlebars-template">
@@ -83,6 +82,7 @@
 				<div class = "value fa fa-group"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
+				<h3 class="value">{{caption}}</p></h5>
 			</div>
 		</div>
 	</section>
