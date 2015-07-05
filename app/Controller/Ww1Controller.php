@@ -35,7 +35,7 @@ class Ww1Controller extends AppController {
  *
  * @var array
  */
-	public $uses = array();
+	public $uses = array('demoinfo');
 	public $components = array('Trove');
 
 /**
@@ -58,6 +58,18 @@ class Ww1Controller extends AppController {
 	
 	public function generatedata() {
 		$data = array();
+		$demoinfo = $this->demoinfo->find('all',array('order'=>'date'));
+		//print_r($demoinfo);
+		//print_r("hello");
+		///die();
+		for($i=0;$i<count($demoinfo);$i++){
+			//print_r($demoinfo[$i]=>facttype); 
+		}
+/*
+		foreach ($colors as $value) {
+			echo "$value <br>";
+		}
+*/
 		$data = "[
 		{
 			'type':'event',
