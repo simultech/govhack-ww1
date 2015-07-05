@@ -50,7 +50,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-female"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
@@ -61,7 +61,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-male"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa fa-pied-pipper"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
@@ -83,7 +83,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-long-arrow-down"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 				<h3 class="value">{{caption}}</p></h5>
@@ -95,7 +95,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-long-arrow-up"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 				<h3 class="value">{{caption}}</p></h5>
@@ -118,7 +118,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa fa-star"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-long-arrow-up"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
@@ -140,7 +140,7 @@
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
 				<h3 class = "header1">{{date}}</h3>
-				<div class = "value fa fa-group"></div>
+				<div class = "value fa-long-arrow-down"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
 			</div>
