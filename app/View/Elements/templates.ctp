@@ -53,7 +53,7 @@
 <script id="el-demographic-people" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#5baf5a">{{date}}</h3>
+				<h3 class = "header1" style="color:#5baf5a">{{fdate}}</h3>
 				<div class = "fa fa-group" style="color:#5baf5a; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -64,7 +64,7 @@
 <script id="el-demographic-people-female" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#e85094">{{date}}</h3>
+				<h3 class = "header1" style="color:#e85094">{{fdate}}</h3>
 				<div class = "value fa fa-female" style="color:#e85094; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -75,7 +75,7 @@
 <script id="el-demographic-people-male" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#5bb6d1;">{{date}}</h3>
+				<h3 class = "header1" style="color:#5bb6d1;">{{fdate}}</h3>
 				<div class = "value fa fa-male" style="color:#5bb6d1; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -86,7 +86,7 @@
 <script id="el-demographic-proportion" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#b28146;">{{date}}</h3>
+				<h3 class = "header1" style="color:#b28146;">{{fdate}}</h3>
 				<div class = "value fa fa-pied-pipper" style="color:#b28146; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -97,7 +97,7 @@
 <script id="el-demographic-decrease" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#ce514c;">{{date}}</h3>
+				<h3 class = "header1" style="color:#ce514c;">{{fdate}}</h3>
 				<div class = "value fa fa-long-arrow-down" style="color:#ce514c; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</p></h3>
 				</div>
@@ -109,7 +109,7 @@
 <script id="el-demographic-increase" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#9ac54f;">{{date}}</h3>
+				<h3 class = "header1" style="color:#9ac54f;">{{fdate}}</h3>
 				<div class = "value fa fa-long-arrow-up" style="color:#9ac54f; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -121,7 +121,7 @@
 <script id="el-demographic-event" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#fff000 ;">{{date}}</h3>
+				<h3 class = "header1" style="color:#fff000 ;">{{fdate}}</h3>
 				<div class = "value fa fa-star" style="color:#fff000; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -132,7 +132,7 @@
 <script id="el-demographic-indigenous" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#fff000;">{{date}}</h3>
+				<h3 class = "header1" style="color:#fff000;">{{fdate}}</h3>
 				<div class = "value fa fa-star" style="color:#fff000; font-size:250%; margin-bottom:5px;""></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -143,7 +143,7 @@
 <script id="el-demographic-proportion-increase" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#9ac54f;">{{date}}</h3>
+				<h3 class = "header1" style="color:#9ac54f;">{{fdate}}</h3>
 				<div class = "value fa fa-long-arrow-up" style="color:#9ac54f; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>
@@ -154,7 +154,7 @@
 <script id="el-demographic-proportion-decrease" type="text/x-handlebars-template">
 	<section>
 			<div class="col-sm-12 col-md-12 text-center">	
-				<h3 class = "header1" style="color:#ce514c;">{{date}}</h3>
+				<h3 class = "header1" style="color:#ce514c;">{{fdate}}</h3>
 				<div class = "value fa fa-long-arrow-down" style="color:#ce514c; font-size:250%; margin-bottom:5px;"></div>
 					<h3 class="value">{{caption}}</h3>
 				</div>

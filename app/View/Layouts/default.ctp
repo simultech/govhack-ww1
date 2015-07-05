@@ -43,6 +43,7 @@
 
 		</div>
 		<div id="intro"><a name="intro"></a>
+			<img src='/img/Logo-03.png' />
 			<?php echo $this->element('intro'); ?>
 		</div>
 		<div id="tailor">

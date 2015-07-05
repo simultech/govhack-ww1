@@ -16,7 +16,7 @@ div#titlefix {
 div#intro {
 	//height:100%;
 	padding:50px;
-	background:orange;
+	background:#f39700;
 }
 div#timeline {
 	background:#333;
@@ -33,6 +33,13 @@ div#conclusion img {
 	width:200px;
 	text-align:center;
 	display:block;
+}
+div#intro img {
+	margin:0 auto;
+	width:200px;
+	text-align:center;
+	display:block;
+	margin-bottom:50px;
 }
 div#footer {
 	height:200px;
@@ -158,14 +165,14 @@ div#tailorinner {
 	    	border-top:1px solid #000;
 	    	height:200px;
 	    	padding-top:100px;
-	    	text-shadow: 0px 0px 4px black;
+	    	text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
     	}
     	.timeline_header div .away_head {
     		background:#[UIColor colorWithHue:0.087 saturation:0.472 brightness:0.557 alpha:1];
-	    	background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/cb/Australian_9th_and_10th_battalions_Egypt_December_1914_AWM_C02588.jpeg');
+	    	background-image:url('/img/at_war.png');
     	}
     	.timeline_header div .home_head {
-	    	background-image:url('http://anzaccentenary.vic.gov.au/wp-content/uploads/2013/10/Banner-Melbourne%E2%80%99s-Swanston-street-in-1914-%E2%80%93-calm-and-confident.jpg');
+	    	background-image:url('/img/at_home.png');
     	}
     	div.gmnoprint {
 	    	display:none !important;

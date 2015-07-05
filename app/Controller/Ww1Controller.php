@@ -36,7 +36,7 @@ class Ww1Controller extends AppController {
  * @var array
  */
 
-	public $uses = array('demoinfo','Poster','ABCLocalPhoto', ,'Slqqueenslandernews');
+	public $uses = array('demoinfo','Poster','ABCLocalPhoto','Slqqueenslandernews');
 
 	public $components = array('Trove');
 
@@ -181,7 +181,7 @@ class Ww1Controller extends AppController {
 						'showHeader'=>$showHeader
 					)
 			);
-			$count++;
+			$count++; 
 			
 		}
 		//print_r($data);
@@ -202,6 +202,7 @@ class Ww1Controller extends AppController {
 				} else {
 					$poster = $posters[0];
 				}
+				$dm['demoinfo']['fdate'] = date('d F Y',strtotime($dm['demoinfo']['date']));
 				$data[] = array(
 					'type'=>'split',
 					'date'=>$dm['demoinfo']['date'],

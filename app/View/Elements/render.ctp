@@ -59,6 +59,10 @@
 	rendernodes();
 	});
 </script>
-<div id='dyn' class='container'>
-
+<div class="timeline_header">
+	<div>
+		<div class="away_head col-md-6">At War</div>
+		<div class="home_head col-md-6">At Home</div>
+	</div>
 </div>
+<div id='dyn' class='container'></div>
