@@ -5,8 +5,13 @@
 			'text':'1914 - Start of war'
 		},
 		{
-			'type':'large',
+			'type':'l	arge',
 			'template':'el-soldier',
+			'data':{}
+		},
+		{
+			'type':'large',
+			'template':'el-demographic',
 			'data':{}
 		},
 		{
