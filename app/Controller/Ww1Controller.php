@@ -48,11 +48,50 @@ class Ww1Controller extends AppController {
 	public function index() {
 		$results = $this->Trove->search('worldwar1');
 		$this->set('results',$results);
+		$this->set('fulldata',$this->generatedata());
 	}
 	
 	public function search($term) {
 		$results = $this->Trove->search('worldwar1');
 		$this->set('results',$results);
+	}
+	
+	public function generatedata() {
+		$data = array();
+		$data = "[
+		{
+			'type':'event',
+			'text':'1914 - Start of war'
+		},
+		{
+			'type':'large',
+			'template':'el-soldier',
+			'data':{}
+		},
+		{
+			'type':'event',
+			'text':'1915 - Middle of war'
+		},
+		{
+			'type':'split',
+			'war':{
+				'type':'small',
+				'template':'el-poster',
+				'data':{'title':'blbk','description':'fda','creator':'jojo','d':'1914'}
+			},
+			'home':{
+				'type':'small',
+				'template':'el-demographic',
+				'data':{'title':'blbk','description':'fda','creator':'jojo','d':'1914'}
+			}
+		},
+
+		{
+			'type':'event',
+			'text':'1914 - End of war'
+		},
+	]";
+		return $data;
 	}
 	
 	public function visual() {
