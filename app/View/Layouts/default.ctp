@@ -50,8 +50,10 @@
 		</div>
 		<div id="main">
 		<div id='koko'>
+		<div id='jojo'>
 			<?php echo $this->element('data'); ?>
 			<?php echo $this->element('render'); ?>
+		</div>
 		</div>
 			<?php echo $this->Session->flash(); ?>
 
@@ -65,11 +67,12 @@
 		<div id='timeline'>
 			<?php echo $this->element('timeline'); ?>
 		</div>
+		<?php echo $this->element('map'); ?>
 	</div>
 	<script type="text/javascript">
 	$(window).on("scroll", function() {
 	    var scrollPos = $(window).scrollTop();
-	    if (scrollPos <= $(window).height()) {
+	    if (scrollPos <= $(window).height()*2) {
 	        $("#timeline").fadeOut();
 	    } else {
 	        $("#timeline").fadeIn();

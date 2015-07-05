@@ -14,6 +14,7 @@
 		height:3px;
 		margin-top:50px;
 		margin-left:10%;
+		z-index:300;
 	}
 	div#bottomtimeline .node {
 		background:#fff;
@@ -25,6 +26,7 @@
 		top:50%;
 		margin-top:-9px;
 		cursor: pointer; cursor: hand;
+		z-index:400;
 	}
 	div#bottomtimeline .node:hover {
 		background:#ddf;
@@ -57,6 +59,9 @@
 </style>
 
 <div id='bottomtimeline'>
+	<div id="map"></div>
+	<div id='timelinefix'></div>
+	<div id='timelinefix2'></div>
 	<div class='line'></div>
 	<div class='start node' data-anchor="intro"><span>Introduction</span></div>
 	<div class='nodes'>

@@ -9,7 +9,7 @@ div#titlefix {
 	height:100%;
 }
 div#intro {
-	height:100%;
+	//height:100%;
 	padding:50px;
 	background:orange;
 }
@@ -142,10 +142,49 @@ div#tailorinner {
     	.timeline_header div .home_head {
 	    	background-image:url('http://anzaccentenary.vic.gov.au/wp-content/uploads/2013/10/Banner-Melbourne%E2%80%99s-Swanston-street-in-1914-%E2%80%93-calm-and-confident.jpg');
     	}
+    	div.gmnoprint {
+	    	display:none !important;
+    	}
     	section {
 	    	border:1px solid #333;
 	    	overflow:auto;
 	    	background:#222;
 	    	margin:10px;
 	    	border-radius:4px;
+    	}
+    	div#map {
+	    	width:1000px;
+	    	height:600px;
+	    	zoom:0.2;
+	    	border-radius:10px;
+	    	margin-top:0;
+	    	border-top-left-radius:100px;
+	    	border-top-right-radius:100px;
+	    	margin-top:-100px;
+	    	position:absolute;
+	    	top:-500px;
+	    	left:50%;
+	    	margin-left:-500px;
+	    	border:1px solid #222;
+	    	opacity:0.8;
+    	}
+    	div#timelinefix {
+    		position:absolute;
+	    	background:#b3b3b3;
+	    	//background:red;
+	    	left:50%;
+	    	width:6px;
+	    	height:100px;
+	    	margin-left:-3px;
+	    	z-index:-100;
+    	}
+    	div#timelinefix2 {
+    		position:absolute;
+	    	background:#000;
+	    	left:50%;
+	    	width:6px;
+	    	height:120px;
+	    	margin-left:-3px;
+	    	margin-top:-120px;
+	    	z-index:-100;
     	}
