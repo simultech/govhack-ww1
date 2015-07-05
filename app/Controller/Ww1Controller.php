@@ -62,15 +62,15 @@ class Ww1Controller extends AppController {
 		//print_r($demoinfo);
 		//print_r("hello");
 		///die();
-		for($i=0;$i<count($demoinfo);$i++){
-			//print_r($demoinfo[$i]=>facttype); 
+		foreach($demoinfo as $dm) {
+			$data[] = array(
+				'type'=>'large',
+				'template'=>'el-demographic-'.$dm['demoinfo']['facttype'],
+				'data'=>$dm['demoinfo'],
+			);
 		}
-/*
-		foreach ($colors as $value) {
-			echo "$value <br>";
-		}
-*/
-		$data = "[
+		$data = json_encode($data);
+		$data_old = "[
 		{
 			'type':'event',
 			'text':'1914 - Start of war'

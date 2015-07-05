@@ -36,21 +36,67 @@
 </section>
 </script>
 
-<script id="el-demographic" type="text/x-handlebars-template">
-	
-<section>
-	<div class="container">
-
-						<div class="col-sm-12 col-md-12 text-center">	
-							<h3 class = "header1">{{date}}</h3>
-							<div class = "value fa fa-group"></div>
-							<h3 class="value">{{caption}}</p></h5>
-							
-						</div>
-
+<script id="el-demographic-people" type="text/x-handlebars-template">
+	<section>
+		<div class="container">
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{date}}</h3>
+				<div class = "value fa fa-group"></div>
+					<h3 class="value">{{caption}}</p></h3>
 				</div>
+			</div>
+		</div>
+	</section>
+</script>
 
-	</div>
-</section>
+<script id="el-demographic-people-female" type="text/x-handlebars-template">
+	<section>
+		<div class="container">
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{date}}</h3>
+				<div class = "value fa fa-group"></div>
+					<h3 class="value">{{caption}}</p></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+</script>
 
+<script id="el-demographic-proportion" type="text/x-handlebars-template">
+	<section>
+		<div class="container">
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{date}}</h3>
+				<div class = "value fa fa-group"></div>
+					<h3 class="value">{{caption}}</p></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+</script>
+
+<script id="el-demographic-decrease" type="text/x-handlebars-template">
+	<section>
+		<div class="container">
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{date}}</h3>
+				<div class = "value fa fa-group"></div>
+					<h3 class="value">{{caption}}</p></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+</script>
+
+<script id="el-demographic-event" type="text/x-handlebars-template">
+	<section>
+		<div class="container">
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{date}}</h3>
+				<div class = "value fa fa-group"></div>
+					<h3 class="value">{{caption}}</p></h3>
+				</div>
+			</div>
+		</div>
+	</section>
 </script>
