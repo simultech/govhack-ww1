@@ -35,7 +35,7 @@ class Ww1Controller extends AppController {
  *
  * @var array
  */
-	public $uses = array('demoinfo','Poster');
+	public $uses = array('demoinfo','Poster','Slqqueenslandernews');
 	public $components = array('Trove');
 
 /**
@@ -61,6 +61,52 @@ class Ww1Controller extends AppController {
 		$posters = $this->Poster->find('all',array('order'=>'d'));
 		$postercount = 0;
 		$demoinfo = $this->demoinfo->find('all',array('order'=>'caption'));
+		$newspaper = $this->Slqqueenslandernews->find('all',array('order'=>'temporal'));
+		$newswar = array();
+		$newshome = array();
+		foreach($newspaper as $news) {
+			$ttl = $news['Slqqueenslandernews']['description'];
+			$ttl = substr($ttl,strpos($ttl, 'Title:')+7);
+			$ttl = substr($ttl,strpos($ttl, ':')+1);
+			$ttl = substr($ttl,0,strpos($ttl, 'Caption:'));
+			$news['Slqqueenslandernews']['formal'] = $ttl;
+			if(strpos($news['Slqqueenslandernews']['description'], 'war') !== false) {
+				$newswar[] = $news['Slqqueenslandernews'];
+			} else {
+				$newshome[] = $news['Slqqueenslandernews'];
+			}
+		}
+		$thecount = sizeOf($newswar);
+		if(sizeOf($newshome) < $thecount) {
+			$thecount = sizeOf($newshome);
+		}
+		for($i=0; $i<$thecount; $i++) {
+			$data[] = array(
+				'type'=>'split',
+				'date'=>$newswar[$i]['temporal'],
+				'war'=>array(
+					'type'=>'small',
+					'template'=>'el-newspaper',
+					'data'=>$newswar[$i],
+				),
+				'home'=>array(
+					'type'=>'small',
+					'template'=>'el-newspaper',
+					'data'=>$newshome[$i],
+				)
+			);
+		}
+		/*
+foreach($newspaper as $news) {
+			$data[] = array(
+				'type'=>'large',
+				'template'=>'el-newspaper',
+				'text'=>$news['Slqqueenslandernews']['title'],
+				'date'=>$news['Slqqueenslandernews']['temporal'],
+				'data'=>$news['Slqqueenslandernews']
+			);
+		}
+*/
 		foreach($demoinfo as $dm) {
 			if($dm['demoinfo']['facttype'] == 'event') {
 				$data[] = array(

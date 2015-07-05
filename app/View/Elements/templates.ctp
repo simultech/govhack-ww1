@@ -146,3 +146,12 @@
 			</div>
 	</section>
 </script>
+
+<script id="el-newspaper" type="text/x-handlebars-template">
+	<section>
+			<div class="col-sm-12 col-md-12 text-center">	
+				<h3 class = "header1">{{formal}}</h3>
+				<a href="{{1000pixel}}" target="_blank"><img alt="" class="img-responsive" src="{{500pixel}}"></a>
+			</div>
+	</section>
+</script>

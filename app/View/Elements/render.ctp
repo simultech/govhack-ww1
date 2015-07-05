@@ -10,7 +10,7 @@
 			console.log(e);
 			switch(e['type']) {
 				case 'event':
-					output = '<div class="tn"><a name="el_'+renderel+'" id="el_'+renderel+'"></a><span>'+e["text"]+'</span></div>';
+					output = '<div class="space"><div class="tn"><a name="el_'+renderel+'" id="el_'+renderel+'"></a><span>'+e["text"]+'</span></div></div>';
 					break;
 				case 'large':
 					var source   = $("#"+e['template']).html();

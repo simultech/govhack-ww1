@@ -17,12 +17,26 @@ div#timeline {
 	background:#333;
 }
 div#conclusion {
-	height:800px;
-	background:purple;
+	background: #fff;
+	color: #333;
+	font-family: Garamond;
+	font-size: 400%;
+	padding: 100px;
+}
+div#conclusion img {
+	margin:0 auto;
+	width:200px;
+	text-align:center;
+	display:block;
 }
 div#footer {
 	height:200px;
-	background:green;
+	font-family:"Helvetica", sans-serif;
+	font-size:80%;
+	padding:35px;
+}
+div#footer .right {
+	float:right;
 }
 div#war{
 	height: 200px;
@@ -38,6 +52,11 @@ div#at_home{
 	text-align:center;
 }
 /* NODES */
+div.space {
+	overflow:auto;
+	height:100px;
+	margin-top:50px;
+}
 div.tn {
 	background:#fff;
 	width:70px;
@@ -52,11 +71,12 @@ div.tn {
 }
 div.tn span {
 	font-size:150%;
-	width:300px;
+	width:800px;
 	display:block;
 	margin-top:70px;
 	text-align:center;
-	margin-left:-120px;
+	margin-left:-370px;
+	background:#000;
 	text-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black;
 }
 div.tnline {

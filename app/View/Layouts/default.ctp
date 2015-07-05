@@ -59,9 +59,12 @@
 
 			<?php echo $this->fetch('content'); ?>
 				<div id="conclusion"><a name="conclusion"></a>
-			Conclusion
+			<p>Most Australians are fortunate, we have never experienced a war - let alone a World War. With the 100th anniversary of the First World War, it is important that we draw from our history… learn from our ancestors' past... and understand, on a deeply personal level, why war tears us apart, and how it has drawn us together into a stronger international community.
+“Lest we forget” and become divided again...</p>
+			<img src='/img/Logo-05.png' />
 		</div>
 		<div id="footer">
+			<p class='right'><a href="https://github.com/simultech/govhack-ww1" target="_blank">Open Source on Github</a></p>
 			<p>Created by Whatamellon - Govhack 2015</p>
 		</div>
 		<div id='timeline'>
@@ -75,7 +78,9 @@
 	    var scrollPos = $(window).scrollTop();
 	    if (scrollPos <= $(window).height()*2) {
 	        $("#timeline").fadeOut();
+	        $("#bgvid").prop('muted', false);
 	    } else {
+	    	$("#bgvid").prop('muted', true);
 	        $("#timeline").fadeIn();
 	        if(!maploaded) {
 		        mapload();
